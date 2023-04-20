@@ -1,0 +1,831 @@
+    @media screen and (max-width:1919px) {
+        
+        .showCircle::after {
+            right: 16%;
+            bottom: 64%;
+        }
+    
+        .right-Infants-cntent {
+            margin-top: 170px;
+        }
+    
+        .learning-down-bg {
+            bottom: -90px;
+            z-index: -1;
+        }
+    
+        .home-team::before {
+            right: -15%;
+        }
+     
+    }
+
+
+    @media screen and (max-width:1799px) {
+    
+        .showCircle::after {
+            right: 14%;
+            bottom: 64%;
+        }
+
+        .showCircle::before {
+            right: 38%;
+            bottom: 20%;
+        }
+
+        .wrapper {
+            width: 1200px;
+        }
+
+        .age-group .wrapper {
+            width: 1306px;
+        }
+
+        .age-group::before {
+            width: 80px;
+            height: 80px;
+        }
+
+        .age-group::after {
+            width: 60px;
+            height: 60px;
+            right: 2%;
+            top: 46%;
+        }
+
+        .age-group:hover::after {
+            right: 6%;
+            top: 43%;
+        }
+
+        .learning-zones .wrapper {
+            width: 1306px;
+        }
+
+        .learning-zones .owl-nav .owl-prev {
+            left: -8%;
+        }
+
+        .learning-zones .owl-nav .owl-next {
+            right: -8%;
+        }
+
+
+        .team-left::after {
+            top: 14%;
+            right: -5%;
+        }
+
+        .home-team:hover .team-left::after {
+            top: 6%;
+            right: -74px;
+        }
+
+        .home-team::before {
+            width: 366px;
+            height: 400px;
+            top: 4%;
+            right: -17%;
+        }
+
+
+        .home-blog-inner {
+            align-items: inherit;
+        }
+
+        .close_popup {
+            right: 15px;
+            top: 13px;
+        }
+    
+        .home-team {
+            padding: 0 7%;
+        }
+    
+        .home-testmonial .wrapper {
+            width: 916px;
+        }
+    
+        .home-blog {
+            padding: 0 11%;
+        }
+    
+        .first-step-sec {
+            padding: 0 11%;
+        }
+
+    
+    }
+    
+
+
+
+    @media screen and (max-width: 1679px) {
+   
+        .home-team:hover::before {
+            right: -14%;
+        }
+
+        .showCircle::after {
+            right: 15%;
+        }
+
+        .bnr-cnt-home h2 {
+            font-size: 60px;
+        }
+
+        .bnr-cnt-home P {
+            font-size: 25px;
+        }
+
+
+        .bnr-cnt-home a {
+            padding: 13px 50px;
+        }
+
+
+
+}
+
+    @media screen and (max-width: 1600px) {
+        .age-group .wrapper {
+            width: 1046px;
+        }
+
+        .wrapper {
+            width: 1046px;
+            margin: 0 auto;
+        }
+
+        .tabing-top li a {
+            padding: 10px 35px;
+            font-size: 16px;
+        }
+
+        .tabing-top li {
+            margin-right: 35px;
+        }
+
+        .left_abt_home {
+            margin-left: 5%;
+        }
+
+        .left_abt_home p {
+            font-size: 18px;
+        }
+
+        .left_abt_home h5 {
+            font-size: 25px;
+        }
+
+        .right-Infants-cntent {
+            margin-top: 150px;
+        }
+
+        .right-Infants-cntent p {
+            margin-top: 25px;
+        }
+
+        .showCircle::after {
+            right: 15%;
+        }
+
+        p{font-size: 18px;}
+
+        h5 {
+            font-size: 18px;
+        }
+
+        .team-right h5 {
+            font-size: 25px;
+        }
+
+        .learning-down-bg {
+            bottom: -89px;
+        }
+
+        .learning-zones .wrapper {
+            width: 1046px;
+        }
+
+        .testmonial-inner-design h5 {
+            font-size: 25px;
+        }
+
+        .age-group::after {
+            top: 53%;
+        }
+
+        .age-group:hover::after {
+            right: 8%;
+            top: 48%;
+        }
+
+        .learning-up-bg {
+            top: -75px;
+            z-index: -1;
+        }
+
+        .team-left::after {
+            top: 13%;
+            right: -7%;
+        }
+
+
+        .learning-zones {
+            padding-bottom: 60px;
+        }
+
+        .learning-down-bg {
+            bottom: -70px;
+        }
+
+        .right-step a {
+            font-size: 16px;
+        }
+
+        .first-step-sec::before {
+            width: 60px;
+            height: 60px;
+        }
+
+        .first-step-sec::after {
+            width: 180px;
+            height: 180px;
+            right: -8%;
+        }
+
+        .first-step-sec:hover::after {
+            right: -7%;
+        }
+
+        .blog-cnt-right h5 {
+            font-size: 22px;
+        }
+
+
+        p {
+            font-size: 16px;
+        }
+
+        .age-sec-title p {
+            font-size: 20px;
+        }
+
+    }
+    
+    @media screen and (max-width:1599px) {
+       
+
+    }
+    
+    @media screen and (max-width:1535px) {
+       
+        .bnr-cnt-home h2 {
+            font-size: 50px;
+        }
+
+        .bnr-cnt-home P {
+            font-size: 22px;
+        }
+
+        .home-slider:hover .right-bnr-sercle {
+            width: 85px;
+            height: 85px;
+            top: 29%;
+            right: -40px;
+        }
+
+        .home-slider:hover .left-bnr-sercle {
+            width: 145px;
+            height: 145px;
+            top: 58%;
+        }
+
+        .left-bnr-sercle {
+            width: 78px;
+            height: 77px;
+            left: -39px;
+            top: 34%;
+        }
+
+        .left_abt_home h5 {
+            font-size: 22px;
+        }
+
+        .left_abt_home p {
+            font-size: 16px;
+        }
+
+        .showCircle::after {
+            right: 13%;
+        }
+
+        .showCircle::before {
+            right: 35%;
+            bottom: 16%;
+        }
+
+        .home-team::before {
+            width: 366px;
+            height: 400px;
+            top: 4%;
+            right: -19%;
+        }
+
+        .home-testmonial .owl-nav .owl-prev {
+            left: -28%;
+        }
+
+        .home-testmonial .owl-nav .owl-next {
+            right: -28%;
+        }
+
+        .blog-date-home .date-prt {
+            font-size: 18px;
+        }
+
+
+        .ancer-tag-blog a span img{width: 100%;}
+
+        .ancer-tag-blog a span img {
+            width: 80% !important;
+            margin: 0 auto;
+        }
+
+        .tabing-top li {
+            margin-right: 30px;
+        }
+
+        .right-Infants-cntent h5 {
+            font-size: 22px;
+        }
+
+        .right-Infants-cntent p {
+            font-size: 16px;
+        }
+
+        .home-blog .wrapper {
+            width: 100%;
+        }
+
+    }
+    
+    @media screen and (max-width:1479px) {
+       
+        
+    }
+    
+    @media screen and (max-width:1439px) {
+       
+
+        .bnr-cnt-home h2 {
+            font-size: 45px;
+        }
+
+        .bnr-cnt-home P {
+            font-size: 21px;
+        }
+
+        .bnr-cnt-home a {
+            padding: 11px 50px;
+            font-size: 16px;
+        }
+
+        .showCircle::after {
+            right: 11%;
+        }
+
+        .wrapper {
+            width: 1030px;
+        }
+
+        .age-group .wrapper {
+            width: 1030px;
+        }
+
+        .learning-zones .wrapper {
+            width: 1030px;
+        }
+
+        .home-team {
+            padding: 0 8%;
+        }
+
+        .home-testmonial .wrapper {
+            width: 900px;
+        }
+
+        .home-blog {
+            padding: 0 12%;
+        }
+
+        .first-step-sec {
+            padding: 0 12%;
+        }
+
+        .testmonial-icon-bg {
+            position: absolute;
+            right: 3%;
+            top: 21%;
+        }
+
+        .home-team {
+            margin: 80px 0;
+            margin-top: 150px;
+        }
+
+        .home-gallery {
+            margin: 80px 0;
+        }
+
+        .home-team::before {
+            width: 308px;
+            height: 292px;
+            top: 4%;
+            right: -18%;
+        }
+
+        .left-blog-url ul li a {
+            padding: 13px 0;
+            font-size: 18px;
+        }
+
+        .home-blog::before {
+            width: 544px;
+            height: 270px;
+            left: -13%;
+        }
+
+        .first-step-sec::after {
+            right: -10%;
+        }
+
+        .blog_bg_circle {
+            width: 50px;
+            height: 50px;
+            bottom: 30%;
+            right: 3%;
+        }
+
+        .all_popup_design .modal-dialog {
+            width: 70%;
+        }
+
+        .home-blog .owl-theme .owl-nav.disabled+.owl-dots {
+            padding-left: 19%;
+        }
+
+        .age-group::before {
+            width: 60px;
+            height: 60px;
+        }
+
+        .age-group::after {
+            top: 56%;
+            width: 50px;
+            height: 50px;
+        }
+
+        .age-group:hover::after {
+            right: 7%;
+            top: 51%;
+        }
+
+        .age-sec-title p {
+            font-size: 18px;
+        }
+
+        .tabing-top li {
+            margin-right: 25px;
+        }
+
+        .home-blog .wrapper {
+            width: 100%;
+        }
+
+    }
+
+    @media screen and (max-width:1365px) {
+       
+        .bnr-cnt-home h2 {
+            font-size: 40px;
+        }
+
+        .bnr-cnt-home P {
+            font-size: 19px;
+        }
+
+        .home-slider:hover .left-bnr-sercle {
+            width: 120px;
+            height: 119px;
+        }
+
+        .right-bnr-sercle {
+            width: 120px;
+            height: 119px;
+        }
+
+        .home-about::before {
+            width: 275px;
+            height: 175px;
+        }
+
+        .home-about {
+            padding: 80px 0;
+            padding-bottom: 40px;
+        }
+
+        .wrapper {
+            width: 1000px;
+        }
+
+        .age-group .wrapper {
+            width: 1000px;
+        }
+
+        .age-group:hover::after {
+            right: 6%;
+            top: 54%;
+        }
+
+        .age-group::after {
+            top: 58%;
+        }
+
+        .learning-up-bg {
+            top: -62px;
+        }
+
+
+        .learning-zones {
+            margin-top: 90px;
+        }
+
+        .learning-cntent a img {
+            width: 80% !important;
+            margin-left: 10%;
+        }
+
+        .learning-cntent a {
+            padding: 8px 15px;
+        }
+
+        .team-left::after {
+            width: 50px;
+            height: 50px;
+        }
+
+        .home-team::before {
+            width: 275px;
+            height: 270px;
+            top: 4%;
+            right: -18%;
+        }
+
+        .team-right h5 {
+            font-size: 22px;
+        }
+
+        .team-right a img {
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        .team-right a {
+            padding: 8px 15px;
+        }
+
+        .testmonial-color {
+            width: 120px;
+        }
+
+        .testmonial-opacity {
+            width: 120px;
+        }
+
+        .testmonial-icon-bg {
+            right: 2%;
+        }
+
+        .home-testmonial .wrapper {
+            width: 870px;
+        }
+
+        .home-blog {
+            padding: 0 13%;
+        }
+
+        .first-step-sec {
+            padding: 0 13%;
+        }
+
+        .left-blog-url ul li a {
+            padding: 11px 0;
+            font-size: 16px;
+        }
+        .home-blog .wrapper {
+            width: 100%;
+        }
+
+        .home-testmonial .wrapper {
+            width: 840px;
+        }
+
+        .home-team {
+            padding: 0 9%;
+        }
+
+        .home-team:hover .team-left::after {
+            top: 9%;
+            right: -50px;
+        }
+
+        .tabing-top li a {
+            padding: 10px 33px;
+            font-size: 15px;
+        }
+
+        .showCircle::after {
+            right: 10%;
+        }
+
+        .showCircle::before {
+            right: 37%;
+            bottom: 15%;
+        }
+
+        .home-left-abt-btn a {
+            padding: 7px 80px 7px 15px;
+        }
+
+        .home-left-abt-btn a span img {
+            width: 80%;
+        }
+
+        .home-left-abt-btn a {
+            font-size: 14px;
+        }
+
+        .all_popup_design .age-sec-title {
+            margin-top: 30px;
+        }
+
+        .right-Infants-cntent {
+            margin-top: 140px;
+        }
+
+        .right-Infants-cntent p {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .age-sec-title p {
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        .team-right h5 {
+            font-size: 20px;
+        }
+
+        .home-blog {
+            margin-top: 20px;
+        }
+
+        .blog-cnt-right h5 {
+            font-size: 20px;
+        }
+
+        .blog-date-home .date-prt {
+            font-size: 14px;
+        }
+
+        .ancer-tag-blog a span img {
+            width: 70% !important;
+        }
+
+        .ancer-tag-blog a {
+            padding: 8px 15px;
+        }
+
+        .age-sec-title p {
+            font-size: 14px;
+        }
+
+        .all_popup_design {
+            top: 90px;
+        }
+
+        .all_popup_design .form_information p {
+            font-size: 14px;
+        }
+
+
+        .see-all-blog a {
+            padding: 6px 20px;
+            font-size: 16px;
+        }
+
+        .your_information_btn button, input {
+            font-size: 16px;
+        }
+
+        .all_popup_design .form_information {
+            margin-top: 30px;
+        }
+
+        .left-step h5 {
+            font-size: 20px;
+        }
+
+        .left-step p {
+            margin-top: 15px;
+        }
+
+        .right-step a:first-child{margin-top: 0;}
+
+        .first-step-sec::before {
+            width: 50px;
+            height: 50px;
+        }
+
+    }
+    
+    @media screen and (max-width:1279px) {
+        
+
+    }
+    
+    @media screen and (max-width:1199px) {
+      
+      
+
+    }
+
+    @media screen and (max-width:1079px) {
+       
+    }
+    
+    @media screen and (max-width:1023px) {
+       
+    }
+    
+    @media screen and (max-width:991px) {
+      
+
+    }
+
+    @media screen and (max-width:809px) {
+       
+    }
+
+    @media screen and (max-width:799px) {
+        
+    }
+    
+
+
+
+    @media screen and (max-width:767px) {
+       
+    }
+    
+    @media screen and (max-width:639px) {
+       
+    }
+
+    @media screen and (max-width:575px) {
+        
+    }
+    
+    @media screen and (max-width:479px) {
+       
+    }
+
+    @media screen and (max-width:427px) {
+       
+    }
+    
+    @media screen and (max-width:413px) {
+        
+        
+    }
+    @media screen and (max-width:389px) {
+       
+    }
+    
+    @media screen and (max-width:374px) {
+        
+    }
+
+    @media screen and (max-width:360px) {
+        
+    }
+    
+    @media screen and (max-width:359px) {
+       
+    }
