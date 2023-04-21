@@ -221,4 +221,35 @@ $(function(){
     
 });
 
+
+
+// .navbar-collapse.open.in
+
+$(document).ready(function() {
+      
+    $(".navbar-collapse.open.in").each(function() {
+      $(this)
+        .siblings(".panel-heading")
+        .find(".navbar-header")
+        .addClass("active_part");
+    });
+  
+    $(".collapse")
+      .on("show.bs.collapse", function() {
+        $(this)
+          .parent()
+          .find(".navbar-header")
+          .addClass("active_part");
+      })
+      .on("hide.bs.collapse", function() {
+        $(this)
+          .parent()
+          .find(".navbar-header")
+          .removeClass("active_part");
+      });
+  });
+
+
+
+
 });

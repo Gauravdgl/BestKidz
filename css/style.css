@@ -540,7 +540,7 @@ border-color: #1761AE;
     top: -89px;
     left: 0;
     right: 0;
-    z-index: 9;
+    z-index: -1;
 }
 .learning-up-bg img{width: 100%;}
 
@@ -552,10 +552,10 @@ border-color: #1761AE;
     display: block;
     position: absolute;
     bottom: -89px;
-    bottom: -108px;
+    bottom: -101px;
     left: 0;
     right: 0;
-    z-index: 9;
+    z-index: -1;
 }
 
 .learning-down-bg img{width: 100%;}
@@ -569,6 +569,8 @@ border-color: #1761AE;
     background: #fff;
     border-radius: 25px;
 }
+
+
 
 .learning-main-img{display: block; border-radius: 25px; overflow: hidden;}
 

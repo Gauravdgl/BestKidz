@@ -13,7 +13,7 @@
 
 .whats_call a img{width: 50px;}
 
-
+.cross-nav{display: none;}
 .menu-close{display: none;}
 
 .mobile-trigger{display: none;}
@@ -182,6 +182,7 @@
 
 
 .headermain .navigation .navbar-nav li.active a{background: none; color: #fff;}
+
 .headermain .navigation .navbar-nav li.active a::before {
     content: "";
     width: 100%;
@@ -770,8 +771,13 @@
 
 
 
+    .headermain .navigation li a {
+        font-size: 11px;
+    }
 
-
+    .logo {
+        width: 160px;
+    }
 
 
 
@@ -783,16 +789,6 @@
 
 
 @media screen and (max-width:1199px){
-
-
-
-    .headermain .navigation li a {
-
-        padding: 15px 10px;
-
-        font-size: 12px;
-
-    }
 
 
 
@@ -820,9 +816,53 @@
 
     
 
-    
+    .headermain .navigation li a {
+        font-size: 10px;
+    }
 
+    .navigation {
+        padding-right: 5px;
+    }
+
+    .bookademo {
+        gap: 0 5px;
+    }
+
+    .bookademo a {
+        padding: 8px 10px;
+        font-size: 9px;
+    }
+
+    .bookademo a img {
+        width: 15px;
+    }
     
+    .headermain .navigation li a {
+        margin: 16px 8px;
+    }
+
+    .headermain .navigation .dropdown-menu li a {
+        margin: 0;
+        padding: 10px 5px;
+        font-size: 10px;
+    }
+
+    .dropdown-menu::before {
+        top: -4px;
+        right: 30px;
+        background-size: contain;
+        width: 10px;
+        height: 9px;
+    }
+
+
+    .footer {
+        padding: 50px 7%;
+    }
+
+    .left-logo-ft {
+        width: 30%;
+    }
 
 }
 
@@ -855,22 +895,205 @@
     }
 
 
-
-    .headermain .navigation li a {
-
-        padding: 15px 8px;
-
-        font-size: 11px;
-
-    }
+}
 
 
+@media screen and (max-width:991px){
+
+
+    
+.navbar-header {
+    float: none;
+}
+.navbar-left,.navbar-right {
+    float: none !important;
+}
+.navbar-toggle {
+    display: block;
+}
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+.navbar-collapse.collapse {
+    display: none!important;
+}
+.navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+}
+.navbar-nav>li {
+    float: none;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.collapse.in{
+    display:block !important;
+}
 
 
 
+
+.headermain .navigation {
+
+    padding-right: 0px;
+
+    position: absolute;
+
+    right: 0;
+
+    top: 16px;
+
+    width: 100%;
 
 }
 
+
+
+.logo-right {
+
+    float: right;
+
+    margin-right: 50px;
+
+}
+
+
+.headermain .navigation .navbar-collapse {
+    padding-right: 20px;
+    padding-left: 24px;
+    background: #ffffff;
+    width: 93%;
+    right: 0;
+    float: right;
+    margin-top: -62px;
+    z-index: 99;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.headermain .navigation li a {
+    padding: 16px 10px;
+    font-size: 16px;
+    display: inline-block;
+    color: #1761AE;
+    width: 100%;
+    margin: 0;
+}
+
+
+
+.headermain .navigation li.active a{color: #1761AE;}
+
+
+.headermain .navbar-nav{padding: 0;}
+
+
+.headermain .navbar-default .navbar-toggle {
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    margin-right: 20px;
+    color: #1761AE;
+    margin-bottom: 0;
+    z-index: 999;
+}
+
+.headermain .active_part .navbar-toggle {
+    margin-top: 13px;
+    margin-right: 50px;
+}
+
+
+
+.headermain .navigation .navbar-nav li.active a::before{display: none;}
+
+.headermain .navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+
+
+.headermain .navbar-nav {
+    margin-top: 100px;
+    padding: 0 7%;
+}
+
+.headermain .navbar-default .navbar-toggle .icon-bar {
+
+    background-color: #000;
+
+}
+
+
+
+.headermain .navbar-toggle .icon-bar {
+    display: block;
+    width: 27px;
+    height: 4px;
+    border-radius: 15px;
+}
+
+
+.headermain {
+    padding: 16px 3%;
+}
+
+
+.logo {
+    width: 150px;
+}
+
+.headermain .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+.headermain .navigation .navbar-nav li.active a{background: none; color: #1761AE;}
+
+.headermain .active_part.active_part .navbar-toggle .icon-bar {
+    background-color: #1761AE;
+}
+
+
+.cross-nav{display:none;}
+.cross-nav a{}
+
+.headermain .active_part .cross-nav {
+    display: block;
+    z-index: 99999;
+    font-size: 27px;
+    margin-top: 10px;
+    position: absolute;
+    left: 17%;
+    top: 0;
+}
+
+.bookademo {
+    gap: 0 10px;
+    z-index: 99;
+}
+
+.bookademo a {
+    padding: 8px 25px;
+    font-size: 14px;
+}
+
+.bookademo a img {
+    width: 22px;
+}
+
+
+}
 
 
 
@@ -900,129 +1123,7 @@
 
 
 
-    .headermain .navigation {
-
-        padding-right: 0px;
-
-        position: absolute;
-
-        right: 0;
-
-        top: 16px;
-
-        width: 100%;
-
-    }
-
-
-
-    .logo-right {
-
-        float: right;
-
-        margin-right: 50px;
-
-    }
-
-
-
-    .headermain .navigation .navbar-collapse {
-
-        padding-right: 20px;
-
-        padding-left: 24px;
-
-        background: #33bdc8;
-
-    }
-
-
-
-    .headermain .navigation li a {
-
-        padding: 10px 10px;
-
-        font-size: 16px;
-
-        display: inline-block;
-
-        color: #fff;
-
-        width: 100%;
-
-    }
-
-
-
-    .headermain .navigation li.active a{color: #fff;}
-
     
-    .headermain .navbar-nav{padding: 0;}
-
-
-
-    .headermain .navbar-default .navbar-toggle {
-
-        background: none;
-
-        border: 0;
-
-        padding: 0;
-
-        margin: 0;
-
-        margin-top: 16px;
-
-        margin-right: 20px;
-
-        color: #000;
-
-        margin-bottom: 30px;
-
-    }
-
-
-
-    .headermain .navbar-toggle .icon-bar+.icon-bar {
-
-        margin-top: 6px;
-
-    }
-
-
-
-    .headermain .navbar-default .navbar-toggle .icon-bar {
-
-        background-color: #000;
-
-    }
-
-
-
-    .headermain .navbar-toggle .icon-bar {
-
-        display: block;
-
-        width: 27px;
-
-        height: 3px;
-
-        border-radius: 0;
-
-    }
-
-    
-
-
-
-    
-
-    .headermain {
-
-        padding: 10px 3%;
-
-    }
-
 
 
     

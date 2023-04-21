@@ -757,12 +757,113 @@
     
     @media screen and (max-width:1279px) {
         
+        
 
     }
     
     @media screen and (max-width:1199px) {
       
-      
+     
+    
+    html {
+        overflow-x: hidden;
+    } 
+
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .age-group .wrapper {
+        width: 80%;
+    }
+
+    .learning-up-bg {
+        top: -45px;
+    }
+
+    .learning-down-bg {
+        bottom: -45px;
+    }
+
+    .learning-zones .wrapper {
+        width: 80%;
+    }
+
+    .home-testmonial .wrapper {
+        width: 70%;
+    }
+
+    .testmonial-icon-bg {
+        right: 1%;
+    }
+
+    .testmonial-color {
+        width: 100px;
+    }
+
+    .testmonial-opacity {
+        width: 100px;
+    }
+
+    .home-blog::before {
+        width: 527px;
+        height: 220px;
+        left: -13%;
+    }
+
+    .home-blog .owl-theme .owl-nav.disabled+.owl-dots {
+        padding-left: 16%;
+    }
+
+    .right-step a {
+        font-size: 14px;
+    }
+
+
+    .right-step {
+        padding: 44px 9%;
+    }
+
+    .tabing-top li a {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .tabing-top {
+        left: 46%;
+        top: 45px;
+    }
+
+    .right-Infants-cntent {
+        margin-top: 120px;
+    }
+
+    .age-bg-path {
+        width: 400px;
+        right: -12%;
+        top: 10%;
+    }
+
+    .left-home-gallery:first-child {
+        width: 27%;
+    }
+
+    .left-home-gallery {
+        width: 39%;
+    }
+
+    .left-home-gallery:last-child {
+        width: 33%;
+    }
+
+    .blog-cnt-right h5 {
+        font-size: 16px;
+    }
+
+
+  
+    
 
     }
 
@@ -776,6 +877,266 @@
     
     @media screen and (max-width:991px) {
       
+        .bnr-cnt-home h2 {
+            font-size: 35px;
+        }
+
+        .bnr-cnt-home P {
+            font-size: 17px;
+        }
+
+        .bnr-cnt-home a {
+            padding: 10px 40px;
+            font-size: 15px;
+        }
+
+        .home-about-inner {
+            display: flex;
+            gap: 0 10%;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+        }
+
+        .right_abt_home {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .home-about-inner {
+            display: flex;
+            gap: 0 10%;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+        }
+
+
+        .left_abt_home {
+            margin-left: 0;
+            margin-top: 60px;
+            width: 100%;
+        }
+
+        .home-about::before {
+            width: 275px;
+            height: 175px;
+            left: inherit;
+            right: -26%;
+            top: 58%;
+        }
+
+        .home-about:hover::before{left: inherit;}
+
+        .home-about-inner::before {
+            content: "";
+            width: 35px;
+            height: 35px;
+            background: #8cc243;
+            position: absolute;
+            right: inherit;
+            bottom: inherit;
+            left: 26%;
+            top: 50%;
+            z-index: 99;
+            border-radius: 50%;
+            transition: 1.5s;
+            opacity: 0.5;
+        }
+
+        .home-about-inner::after {
+            content: "";
+            width: 30px;
+            height: 30px;
+            background: #1761ae;
+            position: absolute;
+            bottom: inherit;
+            right: 20%;
+            top: 17%;
+            z-index: 99;
+            border-radius: 50%;
+            transition: 1.5s;
+            opacity: 1;
+            left: inherit;
+        }
+
+        .showCircle::before{display: none;}
+        .showCircle::after{display: none;}
+
+
+        .age-group .age-sec-title p{display: none;}
+
+        .Infants-main {
+            display: flex;
+            gap: 30px 2%;
+            flex-wrap: wrap;
+        }
+
+        .left-Infants {
+            width: 100%;
+        }
+
+        .right-Infants {
+            width: 100%;
+        }
+
+        .all_popup_design .modal-dialog {
+            width: 90%;
+        }
+
+        .Infants-second{display: none;}
+
+        .age-bg-path {
+            width: 301px;
+            right: -18%;
+            top: inherit;
+            bottom: 7px;
+        }
+
+        .age-group {
+            padding-bottom: 100px;
+        }
+
+        .age-group .wrapper {
+            width: 90%;
+        }
+
+        .right-Infants {
+            padding-bottom: 50px;
+        }
+
+        .tabing-top {
+            left: 7%;
+            top: 68%;
+            width: 100%;
+        }
+
+        .tabing-top li a {
+            padding: 10px 30px;
+            font-size: 20px;
+        }
+
+        .right-Infants-cntent {
+            margin-top: 140px;
+        }
+
+        .age-group:hover::before{display: none;}
+        .age-group:hover::after{display: none;}
+
+
+        .age-group::before {
+            width: 40px;
+            height: 40px;
+            z-index: 9;
+            left: inherit;
+            right: 18px;
+            background: #1DD5D1;
+            top: 72%;
+        }
+
+
+        .age-group::after {
+            right: inherit;
+            top: 52%;
+            width: 50px;
+            height: 50px;
+            left: 20px;
+        }
+
+
+        .learning-up-bg {
+            top: -113px;
+        }
+
+        .learning-down-bg {
+            bottom: -108px;
+        }
+
+        .learning-zones {
+            margin-top: 120px;
+        }
+
+        .age-sec-title p {
+            font-size: 18px;
+        }
+
+        .age-sec-title p br{display: none;}
+
+        .learning-zones .owl-nav .owl-prev span {
+            width: 40px;
+            height: 40px
+        }
+
+        .learning-zones .owl-nav .owl-next span {
+            width: 40px;
+            height: 40px;
+        }
+
+
+        .right-Infants-cntent p {
+            font-size: 18px;
+        }
+
+
+        .team-inner {
+            display: flex;
+            gap: 0%;
+            flex-wrap: wrap;
+        }
+
+
+        .team-left {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .team-right {
+            width: 100%;
+            margin-top: 60px;
+        }
+
+        .home-team {
+            margin: 150px 0;
+        }
+
+        .home-team:hover::before{}
+
+        .home-team:hover::before{ width: 175px;
+            height: 181px;
+            top: 59%;
+            right: -17%;
+        }
+
+
+       
+        .team-left::before {
+            width: 25px;
+            height: 25px;
+            bottom: 7%;
+            left: 14%;
+        }
+        .home-team:hover .team-left::before{
+            width: 25px;
+            height: 25px;
+            bottom: 7%;
+            left: 14%;
+        }
+
+
+        .home-team:hover .team-left::after{ top: 13%;
+            right: -1%;
+        }
+        .team-left::after {
+            top: 13%;
+            right: -1%;
+        }
+
+        .home-team::before {
+            width: 175px;
+            height: 181px;
+            top: 59%;
+            right: -17%;
+            object-fit: contain;
+            background-size: 100%;
+        }
 
     }
 
