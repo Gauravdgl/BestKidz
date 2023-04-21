@@ -110,6 +110,8 @@ a {
     transition: 0.5s;
 }
 
+
+
 .home-slider:hover .left-bnr-sercle {
     width: 157px;
     height: 154px;
@@ -561,6 +563,7 @@ border-color: #1761AE;
 .learning-down-bg img{width: 100%;}
 
 .learning-slider-main{}
+
 
 
 .learning-left {

@@ -11,6 +11,7 @@
     background: #1761AE;
 }
 
+.logo{z-index: 999;}
 .whats_call a img{width: 50px;}
 
 .cross-nav{display: none;}
@@ -489,6 +490,56 @@
     left: 0;
     top: 9px;
 }
+
+.footer-last{background: #2CA19E; padding: 10px 0; color: #fff;}
+.footer-last-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-last-left{color: #FFFFFF; font-size: 16px;}
+
+.footer-last-right{}
+
+.footer-last-right a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+    align-items: center;
+}
+
+.footer-last-right a span {
+    background: #52c7c4;
+    padding: 9px;
+    border-radius: 50%;
+}
+
+.footer-last-right a span img{width: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* end footer css */
 
@@ -1093,6 +1144,126 @@
 }
 
 
+.footer {
+    flex-wrap: wrap;
+}
+
+.left-logo-ft {
+    width: 100%;
+}
+
+.right-ft-cnt {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.footer {
+    padding: 50px 5%;
+}
+
+
+.quicklink {
+    width: 45%;
+}
+
+.workhourse {
+    display: block;
+    width: 50%;
+}
+
+.contact_ft {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer-logo {
+    width: 45%;
+    margin: 0;
+}
+
+
+
+.left-logo-ft {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.logo_small {
+    width: 44%;
+    margin: 0;
+    flex-wrap: wrap;
+    gap: 20px 0;
+    text-align: right;
+}
+
+.bridgway_logo {
+    width: 100%;
+}
+
+.kindieday-logo {
+    width: 100%;
+}
+
+.bridgway_logo img{width: 50%;}
+.kindieday-logo img{width: 50%;}
+
+.headermain.fixed .dropdown-menu {
+    top: 100%;
+    background: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #1761AE;
+    font-size: 14px;
+    text-align: left;
+}
+
+.headermain .navigation li.open a {
+    background: none;
+    color: #1761AE;
+}
+
+.headermain .navigation .navbar-nav li a:focus {
+    color: #1761AE;
+}
+
+.headermain .navigation .navbar-nav li a:hover {
+    background: none;
+    color: #1761AE;
+}
+
+.headermain .navigation li a {
+    padding: 12px 10px;
+}
+
+.headermain .navbar-nav .open .dropdown-menu li a {
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+
+.footer {
+    padding-top: 100px;
+}
+
+.right-ft-cnt {
+    margin-top: 60px;
+}
+
+.footer ul{margin-bottom: 0;}
+
+
+.headermain .navigation .navbar-collapse {
+    z-index: 999;
+}
+
+.headermain .navbar-default .navbar-toggle {
+    z-index: 9999;
+}
+
+
 }
 
 
@@ -1111,36 +1282,182 @@
 
     }
 
+    .bridgway_logo img {
+        width: 70%;
+    }
 
-
-    .menu_inner_div {
-
-        flex-direction: inherit;
-
-        gap: 0 25px;
-
+    .kindieday-logo img {
+        width: 70%;
     }
 
 
-
-    
-
-
-    
+}
 
 
+@media screen and (max-width:639px){
+
+    .bookademo a {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+
+    .bookademo a img {
+        width: 18px;
+    }
+
+    .footer-last-right a {
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        gap: 5px 0;
+        flex-direction: column-reverse;
+    }
+
+
+    .footer-last-right a span {
+        background: #52c7c4;
+        padding: 9px;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-last-right a span img {
+        width: 13px;
+    }
+
+    .footer-last-left {
+        width: 60%;
+    }
 
 }
+
+
 
 
 
 @media screen and (max-width:479px){
 
 
+    .logo {
+        width: 130px;
+    }
+
+
+    .bookademo {
+        margin-top: 10px;
+    }
+
+    .headermain .navbar-default .navbar-toggle {
+        margin-top: 17px;
+        margin-right: 18px;
+    }
+
+    .logo-right {
+        margin-right: 45px;
+    }
+
+    .bookademo a {
+        padding: 7px 10px;
+        font-size: 11px;
+    }
+
+    .bookademo a img {
+        width: 16px;
+    }
+
+    .bookademo a:first-child {
+        padding: 7px 8px;
+    }
+
+    .bridgway_logo img {
+        width: 90%;
+    }
+
+    .kindieday-logo img {
+        width: 90%;
+    }
+
+    .quicklink ul li:nth-child(4) a {
+        margin-bottom: 20px;
+    }
+
+    .quicklink ul li:nth-child(6) a {
+        margin-bottom: 20px;
+    }
+
+    .quicklink ul li:last-child a {
+        margin-top: 20px;
+    }
+
+    .footer-logo {
+        width: 50%;
+    }
+
+    .ft-title h5 {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        width: 33%;
+    }
 
 
 }
 
+
+@media screen and (max-width:413px){
+
+    .bnr-cnt-home {
+        position: absolute;
+        left: 6%;
+        top: 27%;
+    }
+
+
+    .left-bnr-sercle {
+        bottom: 22%;
+    }
+
+    .bookademo {
+        margin-top: 0px;
+    }
+
+    .headermain .navbar-default .navbar-toggle {
+        margin-top: 5px;
+        margin-right: 15px;
+    }
+
+    .bookademo a {
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+
+    .bookademo a:first-child {
+        padding: 4px 6px;
+    }
+
+    .bookademo a img {
+        width: 13px;
+    }
+
+    .headermain .navbar-default .navbar-toggle {
+        margin-top: 2px;
+        margin-right: 15px;
+    }
+
+    .headermain .navbar-default .active_part .navbar-toggle {
+        margin-top: 17px;
+        margin-right: 20px;
+    }
+
+   
+
+}
 
 
 
@@ -1157,6 +1474,13 @@
 
     
 
+    .headermain {
+        padding: 13px 3%;
+    }
+
+    .headermain .navbar-default .navbar-toggle {
+        margin-top: 0px;
+    }
 
 
 }

@@ -934,8 +934,8 @@
             position: absolute;
             right: inherit;
             bottom: inherit;
-            left: 26%;
-            top: 50%;
+            left: 24%;
+            top: 53%;
             z-index: 99;
             border-radius: 50%;
             transition: 1.5s;
@@ -949,8 +949,8 @@
             background: #1761ae;
             position: absolute;
             bottom: inherit;
-            right: 20%;
-            top: 17%;
+            right: 16%;
+            top: 20%;
             z-index: 99;
             border-radius: 50%;
             transition: 1.5s;
@@ -958,9 +958,15 @@
             left: inherit;
         }
 
-        .showCircle::before{display: none;}
-        .showCircle::after{display: none;}
 
+        .age-group:hover::before {
+            top: 72%;
+        }
+
+        .age-group:hover::after {
+            right: 7%;
+            top: 52%;
+        }
 
         .age-group .age-sec-title p{display: none;}
 
@@ -1018,8 +1024,7 @@
             margin-top: 140px;
         }
 
-        .age-group:hover::before{display: none;}
-        .age-group:hover::after{display: none;}
+     
 
 
         .age-group::before {
@@ -1132,10 +1137,210 @@
         .home-team::before {
             width: 175px;
             height: 181px;
-            top: 59%;
+            top: 57%;
             right: -17%;
             object-fit: contain;
             background-size: 100%;
+        }
+
+        .home-team:hover::before {
+            width: 175px;
+            height: 181px;
+            top: 57%;
+            right: -17%;
+        }
+
+        /* .showCircle::before{display: none;}
+        .showCircle::after{display: none;} */
+
+
+        /* .age-group:hover::before{display: none;}
+        .age-group:hover::after{display: none;} */
+
+
+        p {
+            font-size: 18px;
+        }
+
+
+        .inner-galery-main {
+            flex-wrap: wrap;
+        }
+
+        .left-home-gallery:first-child {
+            width: 100%;
+        }
+
+        .left-home-gallery {
+            width: 100%;
+        }
+
+        .left-home-gallery:last-child {
+            width: 100%;
+        }
+
+        .inner-galery-main {
+            flex-wrap: wrap;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .testmonial-icon-bg {
+            right: 7%;
+            top: 28%;
+        }
+
+        .home-testmonial:hover .testmonial-color {
+            transform: rotate(0deg);
+        }
+
+        .home-testmonial::before {
+            left: 13%;
+            top: inherit;
+            bottom: 23%;
+        }
+
+        .home-testmonial:hover::before {
+            left: 13%;
+            top: inherit;
+            bottom: 23%;
+        }
+
+        .home-blog-inner {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+        .left-blog-url {
+            width: 100%;
+        }
+
+        .right-blog {
+            width: 100%;
+        }
+
+        .home-blog-cnt {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .blog-cnt-left {
+            width: 100%;
+        }
+
+        .blog-cnt-right {
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        .left-blog-url ul li {
+            display: inline-block;
+        }
+
+        .left-blog-url ul {
+            display: flex;
+            gap: 0 15px;
+        }
+
+        .left-blog-url ul li {
+            width: 100%;
+        }
+
+        .left-blog-url ul li a {
+            padding: 11px 0;
+            font-size: 18px;
+        }
+
+        .home-blog::before {
+            width: 496px;
+            height: 208px;
+            left: -20%;
+        }
+       
+        .home-blog {
+            padding: 0 5%;
+        }
+
+        .blog_bg_circle {
+            display: none;
+        }
+
+        .home-blog-cnt {
+            margin-top: 20px;
+        }
+
+        .blog-cnt-right {
+            margin-top: 40px;
+        }
+
+        .blog-cnt-right h5 {
+            font-size: 25px;
+        }
+
+        .blog-date-home .date-prt {
+            font-size: 18px;
+        }
+
+        .home-blog .owl-theme .owl-nav.disabled+.owl-dots {
+            padding-left: 0;
+            text-align: center;
+        }
+
+        .inner-take-step {
+            flex-wrap: wrap;
+        }
+
+        .left-step {
+            width: 100%;
+            text-align: center;
+        }
+
+        .first-step-sec {
+            padding: 0;
+            margin-bottom: 0;
+        }
+
+        .right-step {
+            width: 100%;
+            border-radius: 100px 100px 15px 15px;
+        }
+
+        .first-step-sec::before {
+            width: 50px;
+            height: 50px;
+            bottom: inherit;
+            top: 33px;
+            left: -3%;
+        }
+
+        .first-step-sec:hover::before {
+            bottom: inherit;
+            top: 33px;
+            left: -3%;
+        }
+
+        .first-step-sec::after {
+            right: -5%;
+            width: 80px;
+            height: 80px;
+            top: inherit;
+            bottom: 14%;
+        }
+
+        .first-step-sec:hover::after {
+            top: inherit;
+            bottom: 14%;
+            right: -5%;
+        }
+
+        .first-step-sec {
+            margin-bottom: -25px;
+        }
+
+        .right-step a {
+            font-size: 18px;
+            padding: 12px 0;
         }
 
     }
@@ -1153,10 +1358,402 @@
 
     @media screen and (max-width:767px) {
        
+
+        .all_popup_design .modal-dialog {
+            width: 94%;
+            padding: 0;
+            margin: 0 auto;
+        }
+
+        .all_popup_design {
+            top: 125px;
+        }
+
+        .home-about-inner::before {
+            left: 22%;
+            top: 48%;
+        }
+        
+        .home-about-inner::before {
+            left: 22%;
+            top: 48%;
+        }
+
+        .home-about-inner::after {
+            right: 14%;
+            top: 19%;
+        }
+
+        .home-about::before {
+            width: 250px;
+            height: 150px;
+            left: inherit;
+            right: -29%;
+            top: 55%;
+        }
+
+        .slider_bottom_img {
+            display: block;
+            position: absolute;
+            bottom: -2px;
+        }
+
+        .tabing-top {
+            left: 7%;
+            top: 60%;
+            width: 100%;
+        }
+
+        .learning-up-bg {
+            top: -109px;
+        }
+
+        .age-group::after {
+            right: inherit;
+            top: 48%;
+            width: 50px;
+            height: 50px;
+            left: 11px;
+        }
+
+        .age-group:hover::after {
+            left: 11px;
+            right: inherit;
+            top: 48%;
+        }
+
+        .age-group::before {
+            width: 40px;
+            height: 40px;
+            right: 18px;
+            top: 65%;
+        }
+
+        .age-group:hover::before {
+            top: 65%;
+        }
+
+        .learning-zones .wrapper {
+            width: 75%;
+        }
+
+        .learning-zones .owl-nav .owl-prev {
+            left: -11%;
+        }
+
+        .learning-zones .owl-nav .owl-next {
+            right: -11%;
+        }
+
+        .home-testmonial {
+            position: relative;
+            margin-top: 100px;
+        }
+
+        .home-testmonial .owl-nav .owl-prev span {
+            width: 40px;
+            height: 40px;
+        }
+
+        .home-testmonial .owl-nav .owl-next span {
+            width: 40px;
+            height: 40px;
+        }
+
+        .home-testmonial .owl-nav .owl-prev {
+            left: -31%;
+        }
+
+        .home-testmonial .owl-nav .owl-next {
+            right: -31%;
+        }
+
+        .home-blog::before {
+            width: 467px;
+            height: 160px;
+            left: -20%;
+            top: 1%;
+        }
+
+        .home-blog-inner {
+            margin-top: 80px;
+        }
+
+        .first-step-sec::after {
+            width: 70px;
+            height: 70px;
+        }
+
     }
     
     @media screen and (max-width:639px) {
        
+        .all_popup_design .form_part {
+            width: 100%;
+        }
+
+        .main-heading {
+            font-size: 35px;
+        }
+
+        .left_abt_home h5 {
+            font-size: 18px;
+        }
+
+        .home-about::before {
+            width: 207px;
+            height: 124px;
+            left: inherit;
+            right: -29%;
+            top: 47%;
+        }
+
+        .home-about-inner::before {
+            left: 22%;
+            top: 43%;
+        }
+
+        .home-about-inner::after {
+            right: 12%;
+            top: 17%;
+        }
+
+        .age-group::after {
+            right: inherit;
+            top: 38%;
+            width: 50px;
+            height: 50px;
+            left: 2px;
+        }
+
+        .age-group:hover::after {
+            left: 2px;
+            top: 38%;
+        }
+
+        .age-group::before {
+            width: 40px;
+            height: 40px;
+            right: 5px;
+            top: 60%;
+        }
+
+        .age-group:hover::before {
+            top: 60%;
+        }
+
+        .tabing-top li a {
+            padding: 7px 21px;
+            font-size: 17px;
+        }
+
+        .tabing-top li {
+            margin-right: 15px;
+        }
+
+        .right-Infants-cntent {
+            margin-top: 100px;
+            padding: 0 30px;
+        }
+
+        .right-Infants {
+            padding-bottom: 30px;
+        }
+
+        .tabing-top {
+            left: 7%;
+            top: 54%;
+            width: 100%;
+        }
+
+        .all_popup_design .age-sec-title {
+            margin-top: 0;
+        }
+
+        .all_popup_design .modal-body {
+            position: relative;
+            padding: 35px 35px 35px 35px;
+        }
+
+        .learning-zones .owl-nav .owl-prev {
+            left: -15%;
+        }
+
+        .learning-zones .owl-nav .owl-next {
+            right: -15%;
+        }
+
+
+        .learning-down-bg {
+            bottom: -66px;
+        }
+
+        .learning-up-bg {
+            top: -66px;
+        }
+
+        .learning-zones {
+            margin-top: 80px;
+        }
+
+        .home-team {
+            margin: 115px 0;
+        }
+
+        .team-left::after {
+            top: 2%;
+            right: 0%;
+            width: 40px;
+            height: 40px;
+        }
+
+        .home-team:hover .team-left::after {
+            top: 2%;
+            right: 0%;
+        }
+
+        .team-left::before {
+            width: 25px;
+            height: 25px;
+            bottom: -4%;
+            left: 25%;
+        }
+
+        .home-team:hover .team-left::before {
+            bottom: -4%;
+            left: 25%;
+        }
+
+        .home-team::before {
+            width: 152px;
+            height: 160px;
+            top: 40%;
+            right: -21%;
+        }
+
+        .team-right {
+            width: 100%;
+            margin-top: 65px;
+        }
+
+        .home-blog::before {
+            width: 405px;
+            height: 129px;
+            left: -21%;
+            top: 2%;
+        }
+        
+        .left-blog-url ul li a {
+            padding: 10px 0;
+            font-size: 16px;
+        }
+
+        .left-blog-url ul {
+            margin-bottom: 0;
+        }
+
+        .left-blog-url ul li a {
+            padding: 10px 0;
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+
+        .left-blog-url ul li a {
+            padding: 10px 0;
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+
+
+        .first-step-sec::after {
+            width: 60px;
+            height: 60px;
+            bottom: 18%;
+        }
+
+        .first-step-sec:hover::after {
+            bottom: 18%;
+        }
+
+        .first-step-sec::before {
+            top: 43px;
+            left: -4%;
+        }
+
+        .first-step-sec:hover::before {
+            top: 43px;
+            left: -4%;
+        }
+
+
+        .left-bnr-sercle {
+            width: 100px;
+            height: 100px;
+            left: -39px;
+            top: inherit;
+            bottom: 29%;
+            transition: 0.5s;
+        }
+
+        .home-slider:hover .left-bnr-sercle {
+            width: 80px;
+            height: 79px;
+            top: 18%;
+        }
+
+        .right-bnr-sercle {
+            width: 80px;
+            height: 76px;
+            bottom: inherit;
+            top: 17%;
+            right: -44px;
+            transition: 0.5s;
+        }
+
+        .home-slider:hover .right-bnr-sercle {
+            width: 110px;
+            height: 103px;
+            right: -60px;
+            bottom: 40%;
+            top: inherit;
+        }
+
+
+        .bnr-cnt-home {
+            position: absolute;
+            left: 6%;
+            top: 31%;
+        }
+
+        .bnr-cnt-home h2 {
+            font-size: 40px;
+        }
+
+        .bnr-cnt-home P {
+            font-size: 20px;
+        }
+
+        .bnr-cnt-home a {
+            padding: 13px 46px;
+            font-size: 18px;
+        }
+
+        .age-bg-path {
+            width: 307px;
+            right: -25%;
+            top: inherit;
+            bottom: 7px;
+        }
+
+        .learning-up-bg {
+            top: -75px;
+        }
+
+        .learning-down-bg {
+            bottom: -75px;
+        }
+       
+
     }
 
     @media screen and (max-width:575px) {
@@ -1165,6 +1762,247 @@
     
     @media screen and (max-width:479px) {
        
+        .all_popup_design {
+            top: 86px;
+        }
+
+        .main-heading {
+            font-size: 26px;
+        }
+
+        .all_popup_design .modal-body {
+            position: relative;
+            padding: 20px 30px 30px 30px;
+        }
+
+
+        .all_popup_design .form_part input {
+            height: 35px;
+            font-size: 14px;
+        }
+
+        .all_popup_design .form_information {
+            margin-top: 24px;
+        }
+
+        .your_information_btn button, input {
+            font-size: 14px;
+        }
+
+        .all_popup_design .form_information p {
+            margin-top: 12px;
+        }
+
+        .age-sec-title p {
+            font-size: 14px;
+            margin-top: 26px;
+        }
+
+        .all_popup_design .modal-dialog {
+            width: 90%;
+        }
+
+        .home-about::before {
+            width: 202px;
+            height: 121px;
+            left: inherit;
+            right: -35%;
+            top: 44%;
+        }
+
+        .age-group {
+            padding-top: 20px;
+        }
+
+        .right-Infants-cntent p {
+            font-size: 16px;
+        }
+
+        .right-Infants-cntent h5 {
+            font-size: 20px;
+        }
+
+        .right-Infants-cntent {
+            margin-top: 160px;
+        }
+
+        .tabing-top li {
+            margin-right: 10px;
+        }
+
+        .tabing-top li a {
+            padding: 8px 30px;
+            font-size: 16px;
+        }
+
+        .tabing-top li {
+            margin-right: 10px;
+            margin-bottom: 16px;
+        }
+
+        .tabing-top li:last-child{margin-bottom: 0;}
+
+        .tabing-top {
+            left: 8%;
+            top: 49%;
+            width: 100%;
+        }
+
+        .age-group::after {
+            right: inherit;
+            top: 34%;
+            width: 40px;
+            height: 40px;
+            left: 2px;
+        }
+
+        .age-group:hover::after {
+            left: 2px;
+            top: 34%;
+        }
+
+        .learning-up-bg {
+            top: -60px;
+        }
+
+        .learning-down-bg {
+            bottom: -60px;
+        }
+
+        .age-sec-title .wrapper{width: 100%;}
+
+        p {
+            font-size: 16px;
+        }
+
+        .learning-zones .owl-nav .owl-prev span {
+            width: 30px;
+            height: 30px;
+        }
+
+        .learning-zones .owl-nav .owl-prev span::before {
+            font-size: 16px;
+        }
+
+        .learning-zones .owl-nav .owl-next span {
+            width: 30px;
+            height: 30px;
+        }
+
+        .learning-zones .owl-nav .owl-next span::before {
+            font-size: 16px;
+        }
+
+        .learning-zones .owl-nav .owl-prev {
+            left: -13%;
+        }
+
+        .learning-zones .owl-nav .owl-next {
+            right: -13%;
+        }
+
+        .home-team::before {
+            width: 147px;
+            height: 155px;
+            top: 38%;
+            right: -23%;
+        }
+
+        .home-team:hover::before {
+            width: 147px;
+            height: 155px;
+            top: 38%;
+            right: -23%;
+        }
+
+        .all_popup_design .modal-content {
+            border: none;
+            box-shadow: none;
+        }
+
+        .home-testmonial {
+            margin-top: 80px;
+        }
+
+        .left-blog-url ul li a {
+            padding: 6px 0;
+            font-size: 15px;
+            margin-bottom: 0;
+            font-weight: 600;
+        }
+
+        .left-blog-url ul {
+            gap: 0 6px;
+        }
+
+        .home-blog::before {
+            width: 217px;
+            height: 111px;
+            left: -21%;
+            top: 3%;
+        }
+
+        .home-blog-cnt {
+            margin-top: 30px;
+        }
+
+        .blog-cnt-right {
+            margin-top: 30px;
+        }
+
+        .blog-cnt-right h5 {
+            font-size: 22px;
+        }
+
+        .inner-take-step {
+            border: none;
+        }
+
+        .right-step {
+            padding: 44px 13%;
+        }
+
+        .testmonial-color {
+            width: 75px;
+        }
+
+        .testmonial-opacity {
+            width: 75px;
+        }
+
+        .testmonial-icon-bg {
+            right: 7%;
+            top: 21%;
+        }
+
+        .home-testmonial {
+            padding-top: 30px;
+        }
+
+        .home-testmonial .owl-nav .owl-next span {
+            width: 30px;
+            height: 30px;
+        }
+
+        .home-testmonial .owl-nav .owl-next span::before {
+            font-size: 16px;
+        }
+
+        .home-testmonial .owl-nav .owl-prev span {
+            width: 30px;
+            height: 30px;
+        }
+
+
+        .home-testmonial .owl-nav .owl-prev span::before {
+            font-size: 16px;
+        }
+
+        .inner-galery-main {
+            flex-wrap: wrap;
+            max-height: 465px;
+        }
+
     }
 
     @media screen and (max-width:427px) {
@@ -1173,6 +2011,90 @@
     
     @media screen and (max-width:413px) {
         
+        .bnr-cnt-home h2 {
+            font-size: 35px;
+        }
+    
+        .bnr-cnt-home P {
+            font-size: 18px;
+        }
+
+        .home-slider .owl-dots .owl-dot span {
+            width: 13px;
+            height: 13px;
+        }
+
+        .home-about::before {
+            width: 190px;
+            height: 112px;
+            left: inherit;
+            right: -35%;
+            top: 40%;
+        }
+
+        .home-left-abt-btn a {
+            padding: 7px 60px 7px 15px;
+        }
+
+   
+      
+
+        .right-Infants-cntent h5 {
+            font-size: 18px;
+        }
+
+        .right-Infants-cntent p {
+            font-size: 14px;
+        }
+
+        .age-bg-path {
+            width: 281px;
+            right: -31%;
+            top: inherit;
+            bottom: 18px;
+        }
+
+        .learning-zones {
+            margin-top: 60px;
+        }
+
+        .learning-up-bg {
+            top: -55px;
+        }
+
+        .learning-down-bg {
+            bottom: -55px;
+        }
+
+        .tabing-top {
+            left: 8%;
+            top: 48%;
+        }
+
+        .home-about-inner::before {
+            left: 28%;
+            top: 41%;
+        }
+
+        .home-about-inner::after {
+            right: 10%;
+            top: 15%;
+        }
+
+        .testmonial-icon-bg {
+            right: 7%;
+            top: 23%;
+        }
+
+        .right-step a {
+            font-size: 16px;
+        }
+
+
+        .inner-galery-main {
+            margin-top: 30px;
+        }
+        
         
     }
     @media screen and (max-width:389px) {
@@ -1180,7 +2102,35 @@
     }
     
     @media screen and (max-width:374px) {
-        
+      
+        .home-team::before {
+            width: 130px;
+            height: 139px;
+            top: 34%;
+            right: -23%;
+        }
+
+        .home-team:hover::before {
+            width: 130px;
+            height: 139px;
+            top: 34%;
+            right: -23%;
+        }
+
+        .inner-galery-main {
+            flex-wrap: wrap;
+            max-height: 460px;
+        }
+
+        .gallery-btn {
+            margin-top: 20px;
+        }
+
+        .home-testmonial {
+            padding-top: 20px;
+        }
+
+
     }
 
     @media screen and (max-width:360px) {
@@ -1189,4 +2139,108 @@
     
     @media screen and (max-width:359px) {
        
+        .tabing-top {
+            left: 8%;
+            top: 44%;
+        }
+
+        .age-group::after {
+            top: 30%;
+        }
+
+        .age-group::before {
+            top: 53%;
+        }
+
+        .age-group:hover::before {
+            top: 53%;
+        }
+
+        .age-group:hover::after {
+            top: 30%;
+        }
+
+        .team-left::after {
+            top: 1%;
+            right: -2%;
+            width: 35px;
+            height: 35px;
+        }
+
+        .home-team:hover .team-left::after {
+            top: 1%;
+            right: -2%;
+        }
+
+        .team-left::before {
+            width: 25px;
+            height: 25px;
+            bottom: -7%;
+            left: 23%;
+        }
+
+        .home-team:hover .team-left::before {
+            bottom: -7%;
+            left: 23%;
+        }
+
+        .inner-galery-main {
+            max-height: 435px;
+        }
+
+
+        .home-blog::before {
+            width: 213px;
+            height: 109px;
+            left: -28%;
+            top: 3%;
+        }
+        
+
     }
+
+
+    @media screen and (max-width:339px) {
+
+        .tabing-top {
+            left: 8%;
+            top: 42%;
+        }
+
+
+        .home-about-inner::before {
+            left: 20%;
+            top: 36%;
+        }
+
+        .home-about-inner::after {
+            right: 8%;
+            top: 15%;
+        }
+
+        .home-about::before {
+            width: 168px;
+            height: 98px;
+            left: inherit;
+            right: -39%;
+            top: 39%;
+        }
+
+        .home-team::before {
+            width: 117px;
+            height: 132px;
+            top: 32%;
+            right: -25%;
+        }
+
+        .home-team:hover::before {
+            width: 117px;
+            height: 132px;
+            top: 32%;
+            right: -25%;
+        }
+
+    }
+
+
+   

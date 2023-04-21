@@ -225,7 +225,7 @@ $(function(){
 
 // .navbar-collapse.open.in
 
-$(document).ready(function() {
+
       
     $(".navbar-collapse.open.in").each(function() {
       $(this)
@@ -247,7 +247,27 @@ $(document).ready(function() {
           .find(".navbar-header")
           .removeClass("active_part");
       });
-  });
+  
+
+
+
+
+
+
+  
+
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 0) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 600 }, 600); 
+        return false; 
+    }); 
+
 
 
 
