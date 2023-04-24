@@ -17,6 +17,8 @@ h5{font-size: 22px;}
 
 p{margin: 0; font-size: 20px;}
 
+ul{margin: 0;}
+
 .color-gray{color: #777777;}
 .color-white{color: #fff;}
 
@@ -126,9 +128,28 @@ a {
 }
 
 
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  /* border-top: 4px dashed; */
+  /* border-top: 4px solid\9; */
+  /* border-right: 4px solid transparent; */
+  /* border-left: 4px solid transparent; */
+  border: none;
+  background: url(../images/menu_arrow.png) no-repeat;
+  width: 12px;
+  height: 12px;
+  background-size: contain;
+  margin-top: 2px;
+}
+
+
 .bnr-cnt-home {
     position: absolute;
-    left: 18%;
+    left: 20%;
     top: 35%;
 }
 
@@ -153,7 +174,7 @@ a {
     font-size: 18px;
     text-transform: uppercase;
     border-radius: 50px;
-    padding: 15px 50px;
+    padding: 17px 50px;
     transition: 0.5s;
     text-decoration: none;
 }
@@ -697,7 +718,7 @@ border-color: #1761AE;
 
 .home-team{position: relative; margin: 100px 0; padding: 0 6%; overflow: hidden; margin-top: 200px;}
 
-.home-team:hover::before{right: -13%;}
+.home-team:hover::before{right: -12%;}
 .home-team:hover .team-left::before {
     bottom: 0%;
     left: 14%;
@@ -714,7 +735,7 @@ border-color: #1761AE;
     width: 327px;
     height: 320px;
     position: absolute;
-    right: -17%;
+    right: -14%;
     top: 10%;
     background-size: cover;
     transition: 0.5s;
@@ -1353,9 +1374,10 @@ img.mfp-img {
 .all_popup_design .form_information{margin-top: 40px;}
 
 .all_popup_design .form_part_flex {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px 15px;
+    gap: 15px 15px;
+    display: flex;
+    gap: 15px 15px;
+    flex-wrap: wrap;
 }
 
 .all_popup_design .form_part {
@@ -1373,7 +1395,46 @@ img.mfp-img {
   outline: none;
   font-size: 16px;
   text-transform: capitalize;
+  min-width: 95%;
+  width: 100%;
+  text-align: left;
+  align-items: left;
 }
+
+.all_popup_design .form_part:placeholder-shown{
+  text-align: left;
+  align-items: left;
+}
+
+.all_popup_design .form_part input::placeholder{text-align: left;}
+
+
+.all_popup_design .form_part input { 
+  text-align:left;
+  align-items: left;
+}
+
+.all_popup_design .form_part input::-webkit-input-placeholder {
+  text-align:left;
+  align-items: left;
+}
+
+.all_popup_design .form_part input:-moz-placeholder { /* Firefox 18- */
+  text-align:left;
+  align-items: left;
+}
+
+.all_popup_design .form_part input::-moz-placeholder {  /* Firefox 19+ */
+  text-align:left;
+  align-items: left;
+}
+
+.all_popup_design .form_part input:-ms-input-placeholder {  
+  text-align:left;
+  align-items: left;
+}
+
+
 
 .all_popup_design .form_part input:focus{outline: none; box-shadow: none;}
 
@@ -1566,7 +1627,7 @@ img.mfp-img {
 
 .testmonial-icon-bg {
   position: absolute;
-  right: 7%;
+  right: 10%;
   top: 20%;
 }
 
@@ -1921,3 +1982,199 @@ img.mfp-img {
 }
 
   
+
+
+/* start about us page */
+
+
+.about-us-banner{display: block; position: relative;}
+.about-us-banner img{width: 100%;}
+
+.overlay-inner{
+  content: "";
+  position: absolute;
+  background: #4d4d4d6b;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+}
+
+.about-page-bnr-cnt{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.about-page-bnr-cnt h2 {
+  color: #FFFFFF;
+  font-size: 70px;
+  display: block;
+}
+
+.about-page-bnr-cnt p {
+  display: block;
+  color: #fff;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+
+
+
+
+.our-story{position: relative; overflow: hidden;}
+.our-story::before {
+  content: "";
+  background: url(../images/story_right_bg.png) no-repeat 0 0;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: -150px;
+  top: 25%;
+  z-index: 99;
+  background-size: contain;
+  transition: 0.5s;
+}
+
+/* .our-story-inner{display: flex; gap: 0 10%; align-items: center;} */
+
+.our-story-inner {
+  gap: 0 10%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 40% 50%;
+}
+
+
+
+.our-story-left{width: 100%; position: relative;}
+.our-story-left::before {
+  content: "";
+  background: url(../images/green_icon.png) no-repeat 0 0;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+  transition: 0.5s;
+}
+
+.story-up{
+  width: 100%;
+    float: left;
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    top: 0;
+}
+.story-up img{width: 100%;}
+
+.story-down{width: 100%;}
+.story-down img{width: 100%;}
+
+
+.our-story-right{width: 100%;}
+.our-story-right p {
+  display: block;
+  color: #838383;
+  margin-top: 40px;
+}
+
+
+.our-story:hover::before{
+  right: -120px;
+    top: 26%;
+}
+
+
+.our-story:hover .our-story-left::before {
+  left: -20px;
+}
+
+
+.vision-value .wrapper {
+  width: 1320px;
+}
+
+.vision-value{overflow: hidden;}
+
+
+.vision-value-inner {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 58% 37%;
+  gap: 0 5%;
+}
+
+.vision-value-left{width: 100%;}
+
+.vision-value-right{width: 100%;}
+
+.vision-value-right {
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+
+.vision-value-right img{width: 100%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+
+.vision-value-right:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+.vision-value-left p{display: block; margin-top: 40px; color: #838383;}
+.vision-value-left ul {
+  list-style: none;
+  display: block;
+  margin-top: 30px;
+}
+.vision-value-left ul li {
+  display: block;
+  color: #838383;
+  font-size: 22px;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 23px 0;
+  padding-left: 50px;
+  position: relative;
+}
+
+.vision-value-left ul li span {
+  width: 28px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 23px;
+}
+
+.vision-value-left ul li span img{width: 100%;}
+
+
+
+
+.vision-value {
+  overflow: hidden;
+  width: 100%;
+  background: url(../images/vision_ualue_bg.png) no-repeat 0 0;
+  background-size: 100% 100%;
+  padding-top: 75px;
+  min-height: 950px;
+}
+
+
+
+
+/* end about us page */

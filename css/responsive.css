@@ -272,6 +272,10 @@
             font-size: 20px;
         }
 
+        .testmonial-icon-bg {
+            right: 5%;
+        }
+
     }
     
     @media screen and (max-width:1599px) {
@@ -1482,6 +1486,31 @@
         .first-step-sec::after {
             width: 70px;
             height: 70px;
+        }
+
+        /* .all_popup_design .form_part{margin: 7px 0;}
+
+        .all_popup_design .form_part_flex {
+            gap: 0;
+        } */
+
+        .Infants-main {
+            display: grid;
+        }
+
+        .all_popup_design .form_part_flex {
+            display: grid;
+        }
+
+        .left-blog-url ul {
+            gap: 0 6px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .blog-date-home {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
         }
 
     }
