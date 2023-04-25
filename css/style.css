@@ -150,7 +150,7 @@ a {
 .bnr-cnt-home {
     position: absolute;
     left: 20%;
-    top: 35%;
+    top: 37%;
 }
 
 .bnr-cnt-home h2 {
@@ -2106,20 +2106,24 @@ img.mfp-img {
 
 
 .vision-value-inner {
-  align-items: center;
   display: grid;
-  grid-template-columns: 58% 37%;
+  grid-template-columns: 55% 40%;
   gap: 0 5%;
+  margin-top: 80px;
 }
 
-.vision-value-left{width: 100%;}
-
-.vision-value-right{width: 100%;}
+.vision-value-left {
+  width: 100%;
+  margin-top: 60px;
+}
 
 .vision-value-right {
+  width: 100%;
+  margin-top: 70px;
   border-radius: 30px;
   overflow: hidden;
 }
+
 
 
 .vision-value-right img{width: 100%;
@@ -2145,7 +2149,7 @@ img.mfp-img {
 .vision-value-left ul li {
   display: block;
   color: #838383;
-  font-size: 22px;
+  font-size: 18px;
   border-bottom: 1px solid #d3d3d3;
   padding: 23px 0;
   padding-left: 50px;
@@ -2164,15 +2168,92 @@ img.mfp-img {
 
 
 
-
 .vision-value {
   overflow: hidden;
   width: 100%;
   background: url(../images/vision_ualue_bg.png) no-repeat 0 0;
-  background-size: 100% 100%;
+  background-size: 113% 100%;
   padding-top: 75px;
   min-height: 950px;
 }
+
+
+
+
+
+.faclity-sec {
+  padding: 50px 8%;
+}
+
+.faclity-sec-inner{
+  display: grid;
+  grid-template-columns: 47% 48%;
+  gap: 0 5%;
+}
+
+
+.faclity-sec-left{width: 100%; position: relative;}
+
+.faclity-sec-left .product-gallery{}
+
+.faclity-sec-left .product-gallery .glaery_slider_img {
+  width: 100%;
+  position: relative;
+  border-radius: 45px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+
+.faclity-sec-left .product-gallery .thumb_img{
+  border-radius: 10px; overflow: hidden;
+}
+
+
+
+
+
+
+
+.left_top_slider{position: relative;}
+
+
+
+.faclity_left_bg {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: #8CC243;
+  position: absolute;
+  left: -6%;
+  top: -7%;
+}
+
+.faclity_left_bg::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  top: 13px;
+  background: #1761ae;
+}
+
+.faclity_left_bg::after {
+  content: "";
+  background: #1761ae47;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  bottom: 30%;
+  left: -18px;
+  border-radius: 50%;
+}
+
+
+
+
 
 
 

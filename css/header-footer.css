@@ -388,12 +388,8 @@
 }
 
 
-
-
-.quicklink{}
-
-
 .ft-title{display: block;}
+
 .ft-title h5 {
     margin-bottom: 30px;
     color: #fff;
@@ -403,9 +399,9 @@
 
 
 .quicklink ul{list-style: none;}
-.quicklink ul li{}
+
 .quicklink ul li a {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     padding: 3px 0;
     display: inline-block;
@@ -437,7 +433,7 @@
 .workhourse ul li{display: block;}
 .workhourse ul li a {
     position: relative;
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     padding: 3px 0;
     display: inline-block;
@@ -478,7 +474,7 @@
 .contact_ft ul li a {
     display: block;
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 16px;
     padding: 7px 0;
     text-decoration: none;
     padding-left: 30px;
@@ -500,7 +496,7 @@
 
 .footer-last-left{color: #FFFFFF; font-size: 16px;}
 
-.footer-last-right{}
+
 
 .footer-last-right a {
     text-decoration: none;
@@ -522,7 +518,9 @@
 
 
 
-
+.quicklink ul li a {
+    padding: 1px 0;
+}
 
 
 
@@ -768,9 +766,47 @@
         width: 130px;
     }
 
+    .headermain .navigation .navbar-nav li.active a::before {
+        bottom: -7px;
+    }
 
-    
+    .whats_call a img {
+        width: 30px;
+    }
 
+    .ft-title h5 {
+        font-size: 16px;
+    }
+
+    .quicklink ul li:first-child a {
+        margin-bottom: 15px;
+    }
+
+    .quicklink ul li:nth-child(4) a {
+        margin-bottom: 15px;
+    }
+
+    .quicklink ul li:nth-child(6) a {
+        margin-bottom: 15px;
+    }
+
+    .quicklink ul li:last-child a {
+        margin-top: 15px;
+    }
+
+    .footer {
+        background: #8CC243;
+        padding: 40px 8%;
+    }
+
+    .footer-last-right a span {
+        padding: 5px 7px;
+    }
+
+    .footer-last-right a span img {
+        width: 17px;
+        height: 13px;
+    }
 }
 
 
@@ -786,8 +822,8 @@
     }
 
     .bookademo a {
-        padding: 8px 16px;
-        font-size: 10px;
+        padding: 8px 15px;
+        font-size: 11px;
     }
 
     .bookademo a img {
@@ -917,12 +953,10 @@
 
 }
 
+
 @media screen and (max-width:1023px){
     
 }
-
-
-
 
 
 
@@ -1117,7 +1151,7 @@
 
 
 .cross-nav{display:none;}
-.cross-nav a{}
+
 
 .headermain .active_part .cross-nav {
     display: block;
@@ -1264,9 +1298,25 @@
 }
 
 
+.caret {
+    background: url(../images/menu_arrow_mobile.png) no-repeat;
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.headermain .navigation .navbar-nav li.open .caret {
+    -webkit-transform: rotate(178deg);
+    -moz-transform: rotate(178deg);
+    -ms-transform: rotate(178deg);
+    -o-transform: rotate(178deg);
+    transform: rotate(178deg);
+    margin-top: -10px;
 }
 
 
+}
 
 
 @media screen and (max-width:767px){
@@ -1412,16 +1462,7 @@
 
 @media screen and (max-width:413px){
 
-    .bnr-cnt-home {
-        position: absolute;
-        left: 6%;
-        top: 27%;
-    }
 
-
-    .left-bnr-sercle {
-        bottom: 22%;
-    }
 
     .bookademo {
         margin-top: 0px;
@@ -1455,6 +1496,7 @@
         margin-right: 20px;
     }
 
+
    
 
 }
@@ -1462,17 +1504,13 @@
 
 
 
+
+
 @media screen and (max-width:374px){
 
-
-
     .footer_social {
-
         width: 70%;
-
     }
-
-    
 
     .headermain {
         padding: 13px 3%;
@@ -1496,3 +1534,11 @@
 
 
 /* end media query */
+
+
+
+
+
+
+
+

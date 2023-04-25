@@ -276,10 +276,36 @@
             right: 5%;
         }
 
+
+
+
     }
     
     @media screen and (max-width:1599px) {
        
+        
+        .age-group:hover::after {
+            right: 8%;
+            top: 50%;
+        }
+
+        .home-team {
+            margin: 60px 0;
+            margin-top: 150px;
+        }
+
+       
+
+        .home-gallery {
+            margin: 100px 0;
+            margin-bottom: 70px;
+        }
+
+
+        .home-about {
+            padding: 80px 0;
+            padding-bottom: 40px;
+        }
 
     }
     
@@ -297,7 +323,7 @@
             width: 85px;
             height: 85px;
             top: 29%;
-            right: -40px;
+            right: -28px;
         }
 
         .home-slider:hover .left-bnr-sercle {
@@ -307,11 +333,28 @@
         }
 
         .left-bnr-sercle {
-            width: 78px;
-            height: 77px;
-            left: -39px;
+            width: 75px;
+            height: 74px;
+            left: -27px;
             top: 34%;
         }
+
+        .home-slider:hover .right-bnr-sercle {
+            width: 75px;
+            height: 74px;
+        }
+
+        .right-bnr-sercle {
+            width: 110px;
+            height: 109px;
+        }
+
+
+        .home-slider:hover .left-bnr-sercle {
+            width: 110px;
+            height: 109px;
+        }
+
 
         .left_abt_home h5 {
             font-size: 22px;
@@ -373,6 +416,11 @@
             width: 100%;
         }
 
+        .age-group::after {
+            top: 55%;
+        }
+
+    
     }
     
     @media screen and (max-width:1479px) {
@@ -508,6 +556,131 @@
             width: 100%;
         }
 
+        .all_popup_design {
+            top: 60px;
+        }
+
+        .all_popup_design .age-sec-title {
+            margin-top: 5px;
+        }
+
+      
+        .home-slider .owl-dots .owl-dot span {
+            width: 12px;
+            height: 12px;
+        }
+
+        .main-heading {
+            font-size: 35px;
+        }
+
+        .home-about:hover::before {
+            left: -116px;
+        }
+
+        .home-about {
+            padding: 60px 0;
+            padding-bottom: 40px;
+        }
+
+        .age-group {
+            padding-top: 20px;
+        }
+
+        .age-tabbing {
+            margin-top: 40px;
+        }
+
+        .learning-zones {
+            padding-top: 25px;
+        }
+
+        .learning-zones {
+            padding-bottom: 35px;
+        }
+
+        .home-team:hover::before {
+            right: -15%;
+        }
+
+        .team-right h5 {
+            margin-top: 28px;
+        }
+
+        .team-right p {
+            margin-top: 16px;
+        }
+
+        .home-gallery {
+            padding: 20px 0px 20px 0px;
+        }
+
+        .inner-galery-main {
+            margin-top: 30px;
+        }
+
+        .gallery-btn {
+            margin-top: 30px;
+        }
+
+        .left-home-gallery:first-child {
+            width: 28%;
+        }
+
+        .left-home-gallery {
+            width: 40%;
+        }
+
+        .left-home-gallery:last-child {
+            width: 34%;
+        }
+
+        .gallery-btn a {
+            padding: 7px 30px;
+        }
+
+        .home-testmonial {
+            padding: 20px 0 30px 0px;
+        }
+
+        .testminoal-design {
+            margin-top: 35px;
+        }
+
+        .testmonial-color {
+            width: 100px;
+        }
+
+        .testmonial-opacity {
+            width: 100px;
+        }
+
+        .testminoal-design {
+            padding: 35px 10%;
+        }
+
+        .home-blog::before {
+            width: 448px;
+            height: 256px;
+            left: -13%;
+        }
+
+        .home-blog-inner {
+            margin-top: 115px;
+        }
+
+        .see-all-blog {
+            margin-top: 25px;
+        }
+
+        .first-step-sec {
+            margin: 60px 0;
+        }
+
+      
+
+
+
     }
 
     @media screen and (max-width:1365px) {
@@ -520,15 +693,6 @@
             font-size: 19px;
         }
 
-        .home-slider:hover .left-bnr-sercle {
-            width: 120px;
-            height: 119px;
-        }
-
-        .right-bnr-sercle {
-            width: 120px;
-            height: 119px;
-        }
 
         .home-about::before {
             width: 275px;
@@ -563,7 +727,7 @@
 
 
         .learning-zones {
-            margin-top: 90px;
+            margin-top: 85px;
         }
 
         .learning-cntent a img {
@@ -671,10 +835,7 @@
             font-size: 14px;
         }
 
-        .all_popup_design .age-sec-title {
-            margin-top: 30px;
-        }
-
+      
         .right-Infants-cntent {
             margin-top: 140px;
         }
@@ -720,10 +881,6 @@
             font-size: 14px;
         }
 
-        .all_popup_design {
-            top: 90px;
-        }
-
         .all_popup_design .form_information p {
             font-size: 14px;
         }
@@ -755,6 +912,52 @@
         .first-step-sec::before {
             width: 50px;
             height: 50px;
+        }
+
+        .all_popup_design .main-heading {
+            font-size: 30px;
+        }
+
+        .all_popup_design .modal-body {
+            position: relative;
+            padding: 40px 40px 40px 40px;
+        }
+
+        .main-heading {
+            font-size: 30px;
+        }
+
+
+        .left_abt_home h5 {
+            font-size: 20px;
+        }
+
+
+        .left_abt_home p {
+            margin-top: 20px;
+        }
+
+        .home-left-abt-btn a {
+            padding: 7px 70px 7px 15px;
+        }
+
+
+        .age-bg-path {
+            top: 2%;
+            right: -13%;
+        }
+
+        .main-heading::before {
+            height: 2px;
+        }
+
+        .age-group::after {
+            top: 52%;
+        }
+
+        .age-group:hover::after {
+            right: 6%;
+            top: 48%;
         }
 
     }
@@ -866,8 +1069,25 @@
     }
 
 
-  
+    .age-group::after {
+        top: 46%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .age-group:hover::after {
+        right: 5%;
+        top: 44%;
+    }
+
+    .age-group::before {
+        width: 50px;
+        height: 50px;
+    }
     
+    .showCircle::after {
+        right: 4%;
+    }
 
     }
 
@@ -1792,8 +2012,15 @@
     @media screen and (max-width:479px) {
        
         .all_popup_design {
-            top: 86px;
+            top: 91px;
         }
+
+        .bnr-cnt-home {
+            position: absolute;
+            left: 6%;
+            top: 38%;
+        }
+
 
         .main-heading {
             font-size: 26px;
@@ -1801,7 +2028,7 @@
 
         .all_popup_design .modal-body {
             position: relative;
-            padding: 20px 30px 30px 30px;
+            padding: 20px 30px 25px 30px;
         }
 
 
@@ -1811,7 +2038,7 @@
         }
 
         .all_popup_design .form_information {
-            margin-top: 24px;
+            margin-top: 15px;
         }
 
         .your_information_btn button, input {
@@ -1824,7 +2051,7 @@
 
         .age-sec-title p {
             font-size: 14px;
-            margin-top: 26px;
+            margin-top: 20px;
         }
 
         .all_popup_design .modal-dialog {
@@ -2032,11 +2259,57 @@
             max-height: 465px;
         }
 
+        .all_popup_design .main-heading {
+            font-size: 22px;
+        }
+
+        .all_popup_design .main-heading::before {
+            bottom: -9px;
+        }
+      
+        .bnr-cnt-home {
+            position: absolute;
+            left: 6%;
+            top: 38%;
+        }
+
+        .home-slider .owl-dots {
+            bottom: 7%;
+        }
+
+        .home-about {
+            padding: 50px 0;
+            padding-bottom: 40px;
+        }
+
+        .age-bg-path::before {
+            content: "";
+            width: 15px;
+            height: 15px;
+            background: #8cc243;
+            position: absolute;
+            left: 36%;
+            bottom: 39px;
+            z-index: 99;
+            border-radius: 50%;
+        }
+
+        .magnific-img {
+            width: 99%;
+            padding: 0px;
+        }
+
     }
 
     @media screen and (max-width:427px) {
        
     }
+
+
+
+
+
+
     
     @media screen and (max-width:413px) {
         
@@ -2049,8 +2322,8 @@
         }
 
         .home-slider .owl-dots .owl-dot span {
-            width: 13px;
-            height: 13px;
+            width: 9px;
+            height: 9px;
         }
 
         .home-about::before {
@@ -2111,8 +2384,8 @@
         }
 
         .testmonial-icon-bg {
-            right: 7%;
-            top: 23%;
+            right: 6%;
+            top: 21%;
         }
 
         .right-step a {
@@ -2123,12 +2396,49 @@
         .inner-galery-main {
             margin-top: 30px;
         }
+
+        .all_popup_design {
+            top: 85px;
+        }
         
+        .bnr-cnt-home {
+            position: absolute;
+            left: 6%;
+            top: 31%;
+        }
+    
+    
+        .left-bnr-sercle {
+            bottom: 22%;
+        }
+
+
+        .age-bg-path::before {
+            bottom: 35px;
+        }
         
     }
     @media screen and (max-width:389px) {
        
     }
+
+
+    @media screen and (max-width:390px){
+        .all_popup_design {
+            top: 88px;
+        }
+    
+    }
+    
+    
+    @media screen and (max-width:375px){
+        .all_popup_design {
+            top: 85px;
+        }
+    
+    }
+
+
     
     @media screen and (max-width:374px) {
       
