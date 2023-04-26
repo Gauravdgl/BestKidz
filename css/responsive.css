@@ -17,6 +17,16 @@
         .home-team::before {
             right: -15%;
         }
+
+        .our-story::before {
+            right: -160px;
+        }
+
+        .vision-value-inner {
+            grid-template-columns: 53% 42%;
+        }
+
+
      
     }
 
@@ -114,6 +124,92 @@
             padding: 0 11%;
         }
 
+        .vision-value-inner {
+            margin-top: 115px;
+        }
+
+        .faclity-sec::before {
+            right: -15%;
+        }
+
+        .faclity-sec-right p {
+            max-height: 70px;
+        }
+
+        .faclity-sec-right ul {
+            margin-top: 20px;
+        }
+
+        .our-story-right p {
+            max-height: 114px;
+        }
+
+        .vision-value-inner {
+            margin-top: 100px;
+        }
+
+        .faclity-sec-right ul li {
+            font-size: 16px;
+        }
+
+        .faclity-sec::before {
+            right: -15%;
+            width: 310px;
+            height: 300px;
+        }
+
+        .about-location {
+            padding-top: 100px;
+        }
+
+        .parent_pehra_part {
+            max-height: 186px;
+        }
+
+        .parent-partnership {
+            padding-bottom: 120px;
+        }
+
+        .parent-partnership::before {
+            width: 185px;
+            height: 240px;
+            right: -9%;
+            top: 15%;
+        }
+
+        .shake_holder {
+            top: 170px;
+        }
+
+        .about-page-bnr-cnt h2 {
+            font-size: 60px;
+        }
+
+        .about-page-bnr-cnt p {
+            font-size: 22px;
+        }
+
+        .vision-value-left ul li {
+            font-size: 16px;
+            padding-left: 35px;
+        }
+
+        .vision-value-left ul li span {
+            width: 22px;
+            top: 24px;
+        }
+
+        .faclity-sec-right ul {
+            margin-top: 15px;
+        }
+
+        .vision-value .wrapper {
+            width: 1170px;
+        }
+
+        .vision-value-inner {
+            grid-template-columns: 50% 45%;
+        }
     
     }
     
@@ -305,6 +401,40 @@
         .home-about {
             padding: 80px 0;
             padding-bottom: 40px;
+        }
+
+        .vision-value .wrapper {
+            width: 1150px;
+        }
+
+        .vision-value-left ul li {
+            padding: 16px 0;
+            padding-left: 35px;
+        }
+
+        .vision-value-left ul li span {
+            width: 22px;
+            top: 15px;
+        }
+
+        .vision-value-left p {
+            margin-top: 35px;
+        }
+
+        .vision-value-left ul {
+            margin-top: 15px;
+        }
+
+        .vision-value-inner {
+            grid-template-columns: 56% 39%;
+        }
+
+        .vision-value {
+            min-height: 850px;
+        }
+
+        .vision-value-inner {
+            margin-top: 70px;
         }
 
     }
@@ -677,9 +807,63 @@
             margin: 60px 0;
         }
 
-      
+        .faclity-sec {
+            padding: 50px 6%;
+        }
+
+        .faclity_left_bg {
+            width: 150px;
+            height: 150px;
+            left: -3%;
+            top: -5%;
+        }
+
+        .faclity_left_bg::before {
+            width: 22px;
+            height: 22px;
+            left: -12px;
+            top: 2px;
+        }
+
+        .faclity_left_bg::after {
+            bottom: 35%;
+            left: -23px;
+        }
+
+        .faclity-sec::before {
+            right: -16%;
+            width: 275px;
+            height: 272px;
+            top: 36%;
+        }
+
+        .faclity-sec-right p {
+            margin-top: 35px;
+        }
 
 
+        .our-story::before {
+            right: -170px;
+        }
+
+        .our-story:hover::before {
+            right: -140px;
+        }
+
+        .about-location-inner {
+            margin-top: 85px;
+        }
+
+        .abt-right-location-bg {
+            width: 170px;
+            height: 170px;
+            right: -53px;
+            top: -53px;
+        }
+
+        .parent-partnership {
+            margin-top: -100px;
+        }
 
     }
 
