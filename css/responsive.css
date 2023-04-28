@@ -871,6 +871,14 @@
             padding-top: 85px;
         }
 
+        img.mfp-img {
+            max-height: 300px !important;
+        }
+
+        .mfp-container {
+            width: 60%;
+        }
+
     }
 
     @media screen and (max-width:1365px) {
@@ -1210,9 +1218,7 @@
             font-size: 14px;
         }
 
-        .mfp-container {
-            width: 80%;
-        }
+      
 
     }
     
