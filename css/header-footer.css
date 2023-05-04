@@ -965,6 +965,14 @@
         width: 30%;
     }
 
+    .left-logo-ft {
+        width: 20%;
+    }
+    
+    .right-ft-cnt {
+        width: 70%;
+    }
+
 }
 
 
@@ -973,6 +981,14 @@
     .headermain .navigation li a {
         margin: 16px 9px;
         font-size: 12px;
+    }
+
+    .left-logo-ft {
+        width: 100%;
+    }
+    
+    .right-ft-cnt {
+        width: 100%;
     }
 
 }
@@ -1333,6 +1349,8 @@
     transform: rotate(178deg);
     margin-top: -10px;
 }
+
+
 
 
 }

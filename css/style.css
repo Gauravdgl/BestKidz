@@ -4255,6 +4255,14 @@ p::-webkit-scrollbar-thumb:hover {
 .creative-pod-left{width: 30%; position: relative;}
 .creative-pod-left img{width: 100%;}
 
+.creative-inner1:nth-child(odd) {
+  margin-top: 190px;
+}
+
+.creative-inner1:first-child{
+  margin-top: 0;
+}
+
 .creative-inner1:nth-child(odd) .creative-left-sircle {
   background: #1761AE;
   width: 160px;
@@ -4316,32 +4324,34 @@ p::-webkit-scrollbar-thumb:hover {
 
 
 
-.creative-pod-inner{padding: 50px 13%;}
-
-
+.creative-pod-inner {
+  padding: 50px 13%;
+  padding-bottom: 0;
+  padding-top: 0;
+}
 
 
 
 .creative-inner1:nth-child(even) {
   background: #f6faf0;
   position: relative;
+  z-index: 9;
+  margin-top: 125px;
 }
-
-
 
 
 .creative-inner1:nth-child(even) .creative-pod-inner {
   flex-direction: row-reverse;
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 
 
 
 .creative-inner1:nth-child(even) .creative-left-sircle {
-  background: #1761AE;
+  background: #8CC243;
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -4354,7 +4364,7 @@ p::-webkit-scrollbar-thumb:hover {
 
 .creative-inner1:nth-child(even) .creative-left-sircle::before {
   content: "";
-  background: #8CC243;
+  background: #1761AE;
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -4366,7 +4376,7 @@ p::-webkit-scrollbar-thumb:hover {
 
 .creative-inner1:nth-child(even) .creative-left-sircle::after {
   content: "";
-  background: #8cc24369;
+  background: #1761ae75;
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -4476,6 +4486,14 @@ p::-webkit-scrollbar-thumb:hover {
   margin: 50px 0;
 }
 
+
+.creative-pod .learning-up-bg {
+  top: -60px;
+}
+
+.creative-pod .learning-down-bg {
+  bottom: -60px;
+}
 
 /* end extended program page css */
 
