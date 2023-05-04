@@ -6,7 +6,6 @@ $(function () {
         }, 200);
     });
 
-    
 
 $(window).scroll(function(){
     var scroll = $(window).scrollTop();  
@@ -18,19 +17,12 @@ $(window).scroll(function(){
 })
 
 
-
-
-// Menu side toggle
 $('document').ready(function(){
     $('button.navbar-toggle').click(function(){
       var navbar_obj = $($(this).data("target"));
       navbar_obj.toggleClass("open");
     });
   });
-
-
-
-
 
 
 
@@ -107,6 +99,92 @@ $('.learning-slider .owl-carousel').owlCarousel({
 });
 
 
+$('.key-learning-slider .owl-carousel').owlCarousel({
+    loop: true,
+    autoplay:false,
+    nav:true,
+    margin:30,
+    center: true,
+    dots:false,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            stagepadding:50,
+            autoplay:true,
+            loop:true,
+        },
+        600: {
+            items: 1,
+            stagepadding:100,
+            loop:true,
+        },
+        990: {
+            items: 2,
+        },
+        1200: {
+            items: 3,
+        }
+    }
+});
+
+
+
+$('.video_slider .owl-carousel').owlCarousel({
+    loop: true,
+    autoplay:false,
+    nav:true,
+    margin:50,
+    stagepadding:50,
+    dots:false,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            stagepadding:50,
+            autoplay:true,
+            loop:true,
+        },
+        600: {
+            items: 1,
+            stagepadding:100,
+            loop:true,
+        },
+        990: {
+            items: 2,
+        },
+        1200: {
+            items: 3,
+        }
+    }
+});
+
+
+
+
+
+$(document).ready(function() {     
+    var $videoSrc;  
+    $('.video-btn').click(function() {
+      $videoSrc = $(this).data( "src" );      
+    });
+   
+    $('#experience_model').on('shown.bs.modal', function (e) {
+      
+   
+    $("#video").attr('src',$videoSrc + "?rel=0&amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1" ); 
+    })
+      
+    $('#experience_model').on('hide.bs.modal', function (e) {
+      $("#video").attr('src',$videoSrc); 
+    }) 
+  
+});
+
+
+
+
+
 
 $('.home-testimonials .owl-carousel').owlCarousel({
     loop: true,
@@ -137,6 +215,38 @@ $('.home-testimonials .owl-carousel').owlCarousel({
         }
     }
 });
+
+
+
+$('.encriment-slider .owl-carousel').owlCarousel({
+    loop: true,
+    autoplay:false,
+    nav:true,
+    margin:30,
+    stagepadding:50,
+    dots:false,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            stagepadding:50,
+            loop:true,
+        },
+        600: {
+            items: 1,
+            stagepadding:100,
+            loop:true,
+        },
+        990: {
+            items: 1,
+        },
+        1200: {
+            items: 1,
+        }
+    }
+});
+
+
 
 
 
@@ -172,6 +282,40 @@ $('.home-blog-slider .owl-carousel').owlCarousel({
 });
 
 
+
+$('.team_popup_slider .owl-carousel').owlCarousel({
+    loop: true,
+    autoplay:true,
+    nav:true,
+    margin:30,
+    stagepadding:50,
+    dots:false,
+    dotsData: false,
+    autoplay:false,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            stagepadding:50,
+            autoplay:true,
+            loop:true,
+        },
+        600: {
+            items: 1,
+            stagepadding:100,
+            loop:true,
+        },
+        990: {
+            items: 1,
+        },
+        1200: {
+            items: 1,
+        }
+    }
+});
+
+
+
     $('.image-popup-vertical-fit').magnificPopup({
       type: 'image',
       mainClass: 'mfp-with-zoom', 
@@ -182,8 +326,8 @@ $('.home-blog-slider .owl-carousel').owlCarousel({
       zoom: {
         enabled: true, 
     
-        duration: 300, // duration of the effect, in milliseconds
-        easing: 'ease-in-out', // CSS transition easing function
+        duration: 300, 
+        easing: 'ease-in-out',
     
         opener: function(openerElement) {
     
@@ -250,12 +394,6 @@ $(function(){
   
 
 
-
-
-
-
-  
-
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 0) { 
             $('#scroll').fadeIn(); 
@@ -264,7 +402,7 @@ $(function(){
         } 
     }); 
     $('#scroll').click(function(){ 
-        $("html, body").animate({ scrollTop: 600 }, 600); 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
         return false; 
     }); 
 
@@ -272,16 +410,10 @@ $(function(){
 
 
 
-
-
-
-
-
-// slider ridebar
 $(document).ready(function() {
     var bigimage = $("#big");
     var thumbs = $("#thumbs");
-    //var totalslides = 10;
+   
     var syncedSecondary = true;
 
     bigimage
@@ -325,10 +457,7 @@ $(document).ready(function() {
         .on("changed.owl.carousel", syncPosition2);
 
     function syncPosition(el) {
-        //if loop is set to false, then you have to uncomment the next line
-        //var current = el.item.index;
-
-        //to disable loop, comment this block
+     
         var count = el.item.count - 1;
         var current = Math.round(el.item.index - el.item.count / 2 - 0.5);
 
@@ -338,7 +467,7 @@ $(document).ready(function() {
         if (current > count) {
             current = 0;
         }
-        //to this
+        
         thumbs
             .find(".owl-item")
             .removeClass("current")
@@ -376,15 +505,32 @@ $(document).ready(function() {
     });
 });
 
-// slider end
 
 
 
-
-
-
-
-
+$(document).ready(function() {
+      
+    $(".collapse.in").each(function() {
+      $(this)
+        .siblings(".panel-heading")
+        .find(".panel-title")
+        .addClass("active_part");
+    });
+  
+    $(".collapse")
+      .on("show.bs.collapse", function() {
+        $(this)
+          .parent()
+          .find(".panel-title")
+          .addClass("active_part");
+      })
+      .on("hide.bs.collapse", function() {
+        $(this)
+          .parent()
+          .find(".panel-title")
+          .removeClass("active_part");
+      });
+  });
 
 
 

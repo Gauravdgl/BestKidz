@@ -26,7 +26,9 @@
             grid-template-columns: 53% 42%;
         }
 
-
+        .key-learning-sec .learning-cntent {
+            min-height: 300px;
+        }
      
     }
 
@@ -210,7 +212,85 @@
         .vision-value-inner {
             grid-template-columns: 50% 45%;
         }
-    
+        
+        .key-learning-sec .learning-cntent {
+            min-height: 315px;
+        }
+
+        .sec-know-more-left::before {
+            left: -85px;
+            top: -120px;
+            width: 90%;
+            height: 446px
+         }
+
+         .sec-know-more-inner {
+            gap: 50px 7%;
+         }
+
+         .sec-know-more-right {
+            width: 28%;
+        }
+
+        .sec-know-more-right .testmonial-page-left {
+            width: 100%;
+        }
+
+        .childhood-sercle {
+            width: 165px;
+            height: 165px;
+            left: -45px;
+            top: -45px;
+        }
+
+        .our-approch {
+            position: relative;
+            background: url(../images/bg_main_approch.png) no-repeat 0px -40px;
+            background-size: 127% 110%;
+            padding-bottom: 150px;
+            overflow: hidden;
+            margin-top: 0;
+            padding-top: 140px;
+        }
+
+        .our-approch::after {
+            content: "";
+            width: 130px;
+            height: 130px;
+            top: 52%;
+        }
+
+        .importance-play {
+            margin-top: 20px;
+        }
+
+        .importance-bg_right::before {
+            width: 80px;
+            height: 80px;
+            top: -30px;
+            right: -33px;
+        }
+
+        .curcle_importance {
+            width: 70px;
+            height: 70px;
+            top: 39%;
+        }
+
+        .curcle_importance::before {
+            width: 15px;
+            height: 15px;
+            right: 3px;
+        }
+
+        .importance-play:hover .curcle_importance {
+            left: 4%;
+        }
+
+        .key-learning-sec {
+            padding-bottom: 30px;
+        }
+
     }
     
 
@@ -376,6 +456,67 @@
             width: 70%;
         }
 
+        .play-icon {
+            width: 55px;
+        }
+
+        .team_read_more {
+            bottom: 28%;
+        }
+
+        .childhood-sercle {
+            width: 140px;
+            height: 140px;
+            left: -40px;
+            top: -40px;
+        }
+
+        .our-approch {
+            position: relative;
+            background: url(../images/bg_main_approch.png) no-repeat 0px -25px;
+            background-size: 127% 105%;
+            padding-bottom: 150px;
+            padding-top: 140px;
+        }
+
+        .importance-play .panel-title a {
+            font-size: 18px;
+        }
+
+        .key-learning-sec .learning-cntent h5 {
+            font-size: 18px;
+            min-height: 40px;
+        }
+
+       
+        .key-learning-sec .learning-cntent p {
+            font-size: 16px;
+        }
+
+        .sec-know-more-left::before {
+            left: -75px;
+            top: -114px;
+            width: 90%;
+            height: 437px;
+        }
+
+        .form_part_ft .form_part input {
+            height: 40px;
+        }
+
+        .sec-know-more .your_information_btn button, input {
+            font-size: 16px;
+            padding: 8px 0;
+        }
+
+        .sec-know-more .main-heading {
+            font-size: 30px;
+        }
+
+        .team_pop_cntent p {
+            max-height: 111px;
+            overflow-y: auto;
+        }
 
     }
     
@@ -437,6 +578,26 @@
 
         .vision-value-inner {
             margin-top: 70px;
+        }
+
+        .early-childhood-left {
+            width: 34%;
+        }
+
+        .early-childhood-inner {
+            gap: 50px 6%;
+        }
+
+        .importance-play {
+            margin-top: 0;
+        }
+
+        .key-learning-sec {
+            margin-top: 100px;
+        }
+
+        .key-learning-sec .wrapper {
+            width: 80%;
         }
 
     }
@@ -879,6 +1040,244 @@
             width: 60%;
         }
 
+        .about-page-bnr-cnt h2 {
+            font-size: 50px;
+        }
+
+        .main-heading::before {
+            bottom: -11px;
+        }
+
+        .parent-partnership {
+            padding-bottom: 90px;
+        }
+
+        .team_popup_main .modal-dialog {
+            width: 70%;
+            top: 65px;
+        }
+
+        .galler_top_inr_pop .right_title_popup h5 {
+            font-size: 20px;
+        }
+
+        .team_popup_main .modal-body {
+            position: relative;
+            padding: 20px 60px 50px 60px;
+        }
+
+        .team_popup_main .modal-dialog .close {
+            font-size: 40px;
+        }
+
+        .galler_top_inr_pop .right_title_popup p {
+            margin-top: 10px;
+        }
+
+        .vision-value {
+            background-size: 126% 100%;
+        }
+
+        .faclity-sec {
+            padding-top: 35px;
+            margin-top: -35px;
+        }
+
+        .vision-value .main-heading::before {
+            content: "";
+            width: 72px;
+        }
+
+        .faclity-sec .main-heading::before {
+            width: 22%;
+        }
+
+        .about-location {
+            background: url(../images/about_location_bg.png) no-repeat -188px 0;
+            background-size: 115% 100%;
+        }
+
+        .about-location {
+            margin-top: 0;
+        }
+
+
+        .about-page-bnr-cnt ul li {
+            color: #FFFFFF;
+            font-size: 16px;
+        }
+
+        .abt-left-location-bg {
+            width: 120px;
+            height: 120px;
+            left: -28px;
+            bottom: -30px;
+        }
+
+        .parent-partnership {
+            margin-top: -150px;
+        }
+
+        .testmonial-page-right p {
+            max-height: 134px;
+        }
+
+        .testmonial-page-left {
+            width: 30%;
+        }
+
+        .testmonial-page-right {
+            width: 62%;
+        }
+
+        .video-gallery .right_sercle {
+            width: 95px;
+            height: 95px;
+            right: -46px;
+            top: 33%;
+        }
+
+        .video-gallery .left_sircle {
+            width: 80px;
+            height: 80px;
+            left: -25px;
+            top: 31%;
+        }
+
+        .light_color {
+            margin-top: 85px;
+        }
+
+        .team_read_more {
+            bottom: 33%;
+        }
+
+        .team_pop_cntent p {
+            max-height: 150px;
+            overflow-y: auto;
+        }
+
+        .our-approch {
+            position: relative;
+            background: url(../images/bg_main_approch.png) no-repeat 0px -48px;
+            background-size: 135% 100%;
+            padding-bottom: 140px;
+            padding-top: 87px;
+        }
+
+
+        .importance-bg_right::before {
+            width: 60px;
+            height: 60px;
+            top: -20px;
+            right: -30px;
+        }
+
+        .curcle_importance {
+            width: 50px;
+            height: 50px;
+            top: 39%;
+            left: -17px;
+        }
+
+        .key-learning-sec {
+            margin-top: 90px;
+        }
+
+        .importance-play {
+            margin-top: 0;
+        }
+
+        .importance-play {
+            margin-top: 0;
+            padding-top: 10px;
+        }
+
+        .key-learning-sec {
+            margin-bottom: 75px;
+        }
+
+        .sec-know-more-left::before {
+            left: -75px;
+            top: -101px;
+            width: 90%;
+            height: 394px;
+            -webkit-transform: rotate(4deg);
+            -moz-transform: rotate(4deg);
+            -ms-transform: rotate(4deg);
+            -o-transform: rotate(4deg);
+        }
+
+      
+
+        .our-approch {
+            position: relative;
+            background: url(../images/bg_main_approch.png) no-repeat -17px -50px;
+            background-size: 135% 106%;
+            padding-bottom: 125px;
+            padding-top: 40px;
+        }
+
+        .importance-play .panel-title a {
+            font-size: 16px;
+        }
+
+        .key-learning-sec .wrapper {
+            width: 85%;
+        }
+
+
+        .key-learning-sec .owl-nav .owl-prev {
+            left: -5%;
+        }
+
+        .key-learning-sec .owl-nav .owl-next {
+            right: -5%;
+        }
+
+
+        .key-learning-sec .learning-cntent {
+            min-height: 300px;
+        }
+
+        .sec-know-more .main-heading {
+            font-size: 28px;
+        }
+        .importance-play:hover .importance-bg_right::before {
+            top: 45px;
+            right: 10%;
+        }
+
+        .video-gallery-inner {
+            margin-top: 30px;
+        }
+
+        .testmonial-sec-main {
+            display: block;
+            padding-top: 20px;
+        }
+
+        .testmonial-one:nth-child(even) .testmonial-page-inner {
+            margin: 70px 0;
+        }
+
+        .testmonial-one:nth-child(odd) {
+            margin-top: 130px;
+        }
+
+        .video_model .modal-body {
+            padding: 15px;
+        }
+
+        .video_model .modal-body .close {
+            right: -21px;
+            top: -21px;
+        }
+
+        .testmonial-one:nth-child(odd):last-child {
+            margin-bottom: 20px;
+        }
+
     }
 
     @media screen and (max-width:1365px) {
@@ -1218,7 +1617,101 @@
             font-size: 14px;
         }
 
+        .about-page-bnr-cnt h2 {
+            font-size: 40px;
+        }
+
+        .team_popup_main .modal-dialog {
+            width: 70%;
+            top: 55px;
+        }
+
+        .team_popup_main .owl-nav .owl-prev {
+            left: -6.5%;
+        }
+
+        .team_popup_main .owl-nav .owl-next {
+            right: -6.5%;
+        }
+
+        .vision-value {
+            min-height: 740px;
+        }
+
+
+        .light_color {
+            margin-top: 65px;
+        }
+
+        .gallery_part_top {
+            padding: 30px;
+        }
+
+        .galler_design {
+            padding-bottom: 15px;
+        }
+
+        .team_pop_cntent {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .team_popup_main .modal-dialog {
+            top: 50px;
+        }
+
+        .galler_top_inr_pop .gallery_part_top {
+            width: 36%;
+        }
+
+        .team_read_more {
+            bottom: 37%;
+        }
+
+        .team_pop_cntent p {
+            max-height: 100px;
+        }
+
+        .team_popup_main .modal-body {
+            position: relative;
+            padding: 20px 60px 30px 60px;
+        }
+
+        .key-learning-sec .learning-cntent {
+            min-height: 310px;
+        }
+
+        .our-approch::after {
+            content: "";
+            width: 100px;
+            height: 100px;
+            top: 16%;
+            right: -69px;
+        }
+
+        .our-approch:hover::after {
+            right: -69px;
+        }
+        
+
+        .curcle_importance {
+            width: 50px;
+            height: 50px;
+            top: 39%;
+            left: -15px;
+        }
+
+        .importance-play:hover .curcle_importance {
+            left: -15px;
+        }
+
       
+
+        .importance-bg_right {
+            width: 300px;
+        }
+
+       
 
     }
     
@@ -1230,6 +1723,14 @@
         
         .vision-value-inner {
             grid-template-columns: 53% 40%;
+        }
+
+        .gallery_part_top {
+            width: 29%;
+        }
+
+        .light_color {
+            margin-top: 70px;
         }
 
     }
@@ -1377,6 +1878,66 @@
         bottom: -24px;
     }
 
+    .parent-partnership::before {
+        width: 159px;
+        height: 214px;
+        right: -11%;
+        top: 15%;
+    }
+
+    .parent-partnership:hover::before{
+        right: -11%;
+    }
+
+    .team_read_more {
+        bottom: 44%;
+    }
+
+    .importance-play:hover .importance-bg_right::before {
+        right: -30px;
+        top: -23px;
+    }
+
+    .importance-play:hover .importance-bg_right::before {
+        right: -30px;
+        top: -23px;
+    }
+
+    .encriment-sec::before {
+        left: -150px;
+    }
+
+    .encriment-sec:hover::before {
+        left: -150px;
+    }
+
+    .sec-know-more::before {
+        height: 220px;
+    }
+    
+    .sec-know-more-left::before {
+        left: -64px;
+        top: -86px;
+        width: 103%;
+        height: 355px;
+    }
+
+    .key-learning-sec .owl-nav .owl-prev {
+        left: -9%;
+    }
+
+    .key-learning-sec .owl-nav .owl-next {
+        right: -9%;
+    }
+
+    .testmonial-one:nth-child(odd) {
+        margin-top: 90px;
+    }
+
+    .testmonial-page-right p {
+        max-height: 96px;
+    }
+    
     }
 
     @media screen and (max-width:1079px) {
@@ -1401,6 +1962,14 @@
         .about-location-right-map iframe {
             height: 300px;
         }
+
+        .team_pop_cntent p {
+            max-height: 150px;
+            overflow-y: auto;
+        }
+
+
+
     }
     
     @media screen and (max-width:991px) {
@@ -1882,7 +2451,7 @@
             margin: 0 auto;
         }
 
-        .our-story-left::before{display: none;}
+        /* .our-story-left::before{display: none;} */
 
         .vision-value-inner {
             display: flex;
@@ -2236,6 +2805,345 @@
             padding-bottom: 70px;
         }
 
+        .gallery_part_top {
+            width: 70%;
+        }
+
+        .team_popup_main .owl-nav .owl-prev {
+            left: -11.5%;
+        }
+
+        .team_popup_main .owl-nav .owl-next {
+            right: -11.5%;
+        }
+
+        .galler_top_inr_pop .gallery_part_top {
+            width: 100%;
+        }
+
+        .galler_top_inr_pop .right_title_popup {
+            width: 100%;
+        }
+
+
+        .galler_top_inr_pop {
+            gap: 40px 50px;
+            flex-wrap: wrap;
+        }
+
+        .team_popup_main .modal-body {
+            padding: 20px 50px 25px 50px;
+        }
+
+        .team_popup_main .owl-nav .owl-prev {
+            left: -8.5%;
+        }
+
+        .team_popup_main .owl-nav .owl-next {
+            right: -8.5%;
+        }
+
+        .light_color {
+            margin-top: 120px;
+        }
+
+        .team_popup_main .modal-dialog {
+            width: 80%;
+            top: 110px;
+            margin: 0 auto;
+        }
+
+        .testmonial-page-inner {
+            flex-wrap: wrap;
+        }
+
+        .testmonial-page-right {
+            width: 100%;
+        }
+
+        .testmonial-page-left {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        .testmonial-one:nth-child(even) .testmonial-page-inner {
+            margin: 120px 0;
+            padding-top: 30px;
+        }
+
+        .testmonial-page-right p {
+            max-height: inherit;
+        }
+
+        .testmonial-page-inner {
+            padding: 0px 4%;
+        }
+
+        .video-gallery-inner .owl-nav .owl-prev {
+            left: 41%;
+            top: inherit;
+            bottom: -80px;
+        }
+
+        .video-gallery-inner .owl-nav .owl-next {
+            right: 41%;
+            top: inherit;
+            bottom: -80px;
+        }
+
+        .video-gallery-inner {
+            padding: 0 4%;
+        }
+
+        .video-gallery .left_sircle {
+            width: 110px;
+            height: 110px;
+            left: -25px;
+            top: 31%;
+        }
+
+        .video-gallery .right_sercle {
+            width: 60px;
+            height: 60px;
+            right: -18px;
+            top: inherit;
+            bottom: 15px;
+        }
+
+        .testmonial-one:nth-child(odd):first-child {
+            margin-top: 20px;
+        }
+
+        .testmonial-one:nth-child(even) .learning-up-bg {
+            top: -86px;
+        }
+
+        .testmonial-one:nth-child(even) .learning-down-bg {
+            bottom: -80px;
+        }
+
+        .testmonial-page-right h5 {
+            font-size: 25px;
+        }
+
+        .team_read_more {
+            bottom: 34%;
+        }
+
+
+        .early-childhood-inner {
+            flex-wrap: wrap;
+        }
+
+        .childhood-sercle {
+            width: 120px;
+            height: 120px;
+            left: -25px;
+            top: -29px;
+        }
+
+        .childhood-sercle::before {
+            width: 22px;
+            height: 22px;
+            left: 0px;
+            top: -19px;
+        }
+
+        .childhood-sercle::after {
+            left: -13px;
+            top: 9px;
+        }
+
+
+        .early-childhood-left {
+            width: 91%;
+            margin: 0 auto;
+        }
+
+        .early-childhood-right {
+            width: 100%;
+        }
+
+        .our-approch {
+            position: relative;
+            padding-bottom: 50px;
+            padding-top: 100px;
+            background: #fff;
+        }
+
+        .our-approch .early-childhood-inner {
+            margin-top: 0;
+        }
+
+        .our-approch::after {
+            content: "";
+            width: 55px;
+            height: 55px;
+            top: 3%;
+            right: 54px;
+        }
+
+        .our-approch::before{display: none;}
+
+        .our-approch .early-childhood-left{position: relative;}
+
+        .our-approch .early-childhood-left::before {
+            content: "";
+            background: url(../images/ft_form_right_bg.png) no-repeat 0 0;
+            background-size: contain;
+            width: 508px;
+            height: 279px;
+            position: absolute;
+            top: -50px;
+            right: -30%;
+        }
+
+        .our-approch .early-childhood-left {
+            width: 95%;
+        }
+
+        .early-childhood {
+            margin-bottom: 25px;
+        }
+
+
+        .our-approch .early-childhood-right {
+            position: relative;
+            margin: 50px 0;
+        }
+
+        .our-approch .early-childhood-right::before {
+            content: "";
+            background: url(../images/bg_left_approch.png) no-repeat 0 0;
+            width: 208%;
+            height: 435px;
+            position: absolute;
+            left: -32%;
+            top: -113px;
+            background-size: 100% 100%;
+        }
+
+        .importance-play {
+            margin-top: 0;
+            padding-top: 60px;
+        }
+
+        .our-approch {
+            padding-bottom: 25px;
+        }
+
+        .curcle_importance {
+            width: 70px;
+            height: 70px;
+            top: 4px;
+            left: -28px;
+            z-index: 9;
+        }
+
+        .importance-bg_right {
+            width: 400px;
+            bottom: 53px;
+            right: -50px;
+        }
+
+
+        .importance-bg_right::before {
+            width: 75px;
+            height: 75px;
+            top: 14px;
+            right: 8%;
+        }
+
+        .importance-play:hover .importance-bg_right::before {
+            top: 14px;
+            right: 8%;
+        }
+
+        .key-learning-sec .learning-up-bg {
+            top: -85px;
+        }
+
+        .key-learning-sec .learning-down-bg {
+            bottom: -76px;
+        }
+       
+
+        .key-learning-sec {
+            margin-top: 60px;
+            padding: 40px 0;
+            padding-bottom: 80px;
+        }
+
+        .learning-zones .wrapper {
+            width: 90%;
+        }
+
+        .key-learning-sec .owl-nav .owl-prev {
+            left: 40%;
+            top: inherit;
+            bottom: -54px;
+        }
+
+        .key-learning-sec .owl-nav .owl-next {
+            bottom: -54px;
+            top: inherit;
+            right: 40%;
+        }
+
+        .encriment-sec-inner {
+            flex-wrap: wrap;
+            gap: 70px 5%;
+        }
+
+        .encriment-left {
+            width: 100%;
+        }
+
+        .encriment-right {
+            width: 100%;
+        }
+       
+        .encriment-sec::before {
+            top: 35%;
+            left: -150px;
+            width: 276px;
+            height: 230px;
+        }
+
+        .sec-know-more-right{display: none;}
+        .sec-know-more::before{display: none;}
+
+        .sec-know-more-inner {
+            flex-wrap: wrap;
+        }
+
+        .sec-know-more-left {
+            width: 100%;
+        }
+
+        .knowmore-sircle{display: none;}
+
+        .sec-know-more-left::before {
+            left: -30%;
+            top: -86px;
+            width: 188%;
+            height: 445px;
+        }
+
+        .sec-know-more-inner {
+            padding: 80px 6%;
+        }
+
+        .early-childhood-right a {
+            padding: 10px 30px;
+            width: 100%;
+            text-align: center;
+            margin-top: 35px;
+        }
+
+        .our-approch:hover::after {
+            right: 54px;
+        }
 
     }
 
@@ -2518,6 +3426,99 @@
 
         .mfp-arrow {
             top: 53%;
+        }
+
+        .testmonial-one:nth-child(even) .learning-up-bg {
+            top: -65px;
+        }
+
+        .testmonial-one:nth-child(even) .learning-down-bg {
+            bottom: -65px;
+        }
+
+        .video_model .modal-dialog {
+            width: 92%;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+      
+
+        .video_model .modal-body {
+            padding: 15px;
+        }
+
+        .video_model .modal-body .close {
+            right: 7px;
+            top: -33px;
+        }
+
+        .video_model {
+            top: 100px;
+            padding-top: 21px;
+        }
+
+        .curcle_importance {
+            top: 0%;
+        }
+
+        .cntent_pera_childhood {
+            max-height: 146px;
+        }
+
+        .our-approch .early-childhood-right::before {
+            content: "";
+            background: url(../images/bg_left_approch.png) no-repeat 0 0;
+            width: 251%;
+            height: 410px;
+            position: absolute;
+            left: -32%;
+            top: -113px;
+            background-size: 100% 100%;
+        }
+
+        .our-approch .early-childhood-right {
+            margin-bottom: 0;
+        }
+
+
+        .importance-play {
+            margin-top: 0;
+            padding-top: 70px;
+        }
+
+        .key-learning-sec .learning-up-bg {
+            top: -68px;
+        }
+
+        .key-learning-sec .learning-down-bg {
+            bottom: -65px;
+        }
+
+        .key-learning-sec .owl-nav .owl-prev {
+            left: 39%;
+        }
+
+        .key-learning-sec .owl-nav .owl-next {
+            right: 39%;
+        }
+
+        .learning-zones .wrapper {
+            width: 90%;
+        }
+
+        .encriment-sec::before {
+            top: 39%;
+        }
+
+        .key-learning-sec .learning-cntent {
+            min-height: inherit;
+        }
+
+        .sec-know-more-left::before {
+            left: -30%;
+            top: -86px;
+            width: 188%;
+            height: 400px;
         }
 
     }
@@ -2919,6 +3920,234 @@
             font-size: 20px;
         }
 
+        .gallery_part_top {
+            width: 95%;
+        }
+
+        .light_color {
+            margin-top: 80px;
+        }
+
+        .galler_top_inr_pop {
+            width: 75%;
+        }
+
+        .team_popup_main .modal-body {
+            padding: 20px 35px 25px 35px;
+        }
+
+        .team_pop_cntent p {
+            max-height: 100px;
+        }
+
+        .team_popup_main .modal-dialog {
+            width: 95%;
+            top: 104px;
+        }
+
+        .galler_top_inr_pop {
+            gap: 22px 50px;
+        }
+
+        .team_pop_cntent {
+            margin-top: 22px;
+        }
+
+
+        .testmonial-one:nth-child(even) .testmonial-page-inner {
+            margin: 80px 0;
+        }
+
+
+        .testmonial-one:nth-child(even) .learning-up-bg {
+            top: -52px;
+        }
+
+        .testmonial-one:nth-child(even) .learning-down-bg {
+            bottom: -52px;
+        }
+
+        .video-gallery-inner .owl-nav .owl-prev {
+            left: 37%;
+        }
+
+        .video-gallery-inner .owl-nav .owl-next {
+            right: 37%;
+        }
+
+        .video-gallery .left_sircle {
+            width: 90px;
+            height: 90px;
+            left: -25px;
+            top: 41%;
+        }
+
+        .video-gallery {
+            padding-top: 60px;
+        }
+
+        .video-gallery-inner {
+            margin-top: 40px;
+        }
+
+        .video-gallery .left_sircle {
+            top: 37%;
+        }
+
+        .testmonial-one:nth-child(odd) {
+            margin-top: 100px;
+        }
+      
+        .testmonial-one:nth-child(odd):last-child {
+            margin-bottom: 20px;
+        }
+
+        .our-approch .early-childhood-left::before {
+            width: 375px;
+            height: 230px;
+        }
+
+        .our-approch .early-childhood-right::before {
+            width: 251%;
+            height: 409px;
+            left: -31%;
+            top: -113px;
+        }
+
+        .curcle_importance {
+            top: 0%;
+            width: 50px;
+            left: -24px;
+            height: 50px;
+        }
+
+        .importance-play .panel-title a {
+            max-width: 100%;
+        }
+
+        .importance-play .panel-default {
+            margin-top: 0;
+        }
+
+        .importance-play .right-Infants {
+            padding: 30px 30px;
+            padding-top: 20px;
+        }
+
+        .key-learning-sec .learning-up-bg {
+            top: -50px;
+        }
+
+        .key-learning-sec .learning-down-bg {
+            bottom: -50px;
+        }
+        
+        .key-learning-sec {
+            margin-top: 20px;
+        }
+
+       
+        .key-learning-sec .learning-cntent p{
+            -webkit-line-clamp: inherit;
+        }
+
+        .key-learning-sec .learning-cntent {
+            min-height: 315px;
+        }
+
+        .key-learning-sec .owl-nav .owl-prev {
+            left: 37%;
+            bottom: -50px;
+        }
+
+        .key-learning-sec .owl-nav .owl-next {
+            right: 37%;
+            bottom: -50px;
+        }
+
+        .key-learning-sec {
+            margin-bottom: 54px;
+        }
+
+        .encriment-sec::before {
+            top: 47%;
+            left: -150px;
+            width: 240px;
+            height: 190px;
+        }
+
+        .encriment-sec-inner {
+            margin-top: 55px;
+        }
+
+        .form_part_ft .form_part {
+            width: 100%;
+        }
+
+        .form_part_ft .form_part input {
+            height: 50px;
+        }
+
+      
+        .sec-know-more .your_information_btn button, input {
+            font-size: 16px;
+            padding: 14px 0;
+        }
+
+        .sec-know-more-inner {
+            padding: 40px 6%;
+        }
+
+        .sec-know-more-left::before {
+            left: -51%;
+            top: -33px;
+            width: 200%;
+            height: 514px;
+        }
+
+        .sec-know-more {
+            padding-bottom: 10px;
+            padding-top: 15px;
+        }
+
+        .encriment-sec .owl-nav .owl-prev {
+            width: 50px;
+        }
+
+        .encriment-sec .owl-nav .owl-next {
+            width: 50px;
+        }
+
+        .encriment-sec .owl-nav {
+            gap: 20px 30px;
+        }
+
+        .childhood-sercle {
+            width: 100px;
+            height: 100px;
+            left: -22px;
+            top: -23px;
+        }
+
+        .childhood-sercle::before {
+            width: 18px;
+            height: 18px;
+            left: 12px;
+            top: -26px;
+        }
+
+        .childhood-sercle::after {
+            left: -6px;
+            top: -4px;
+        }
+
+        .our-approch .early-childhood-right::before {
+            width: 251%;
+            height: 409px;
+            left: -31%;
+            top: -96px;
+        }
+
     }
 
     @media screen and (max-width:575px) {
@@ -3241,7 +4470,7 @@
 
         .vision-value::after {
             top: 34%;
-            height: 67%;
+            height: 65%;
         }
 
         .vision-value {
@@ -3303,12 +4532,246 @@
             margin: 9px;
         }
 
+        .about-location-inner::before {
+            height: 130%;
+        }
+
+        .about-location {
+            padding-bottom: 40px;
+        }
+
+
+        .gallery_part_top {
+            width: 100%;
+        }
+
+        .team_popup_main .modal-dialog {
+            top: 97px;
+        }
+
+        .galler_top_inr_pop {
+            width: 80%;
+        }
+
+        .team_popup_main .modal-body {
+            padding: 20px 30px 20px 30px;
+        }
+
+        .faclity-sec-inner {
+            gap: 50px
+        }
+
+        .about-location-inner::before {
+            height: 127%;
+        }
+
+        .about-location {
+            padding-bottom: 20px;
+        }
+
+        .about-page-bnr-cnt p {
+            font-size: 18px;
+            padding: 0 20px;
+        }
+
+        .our-story-right p {
+            padding-bottom: 8px;
+        }
+
+        .parent-partnership {
+            padding-bottom: 50px;
+        }
+
+
+        .our-story-left::before {
+            width: 18px;
+            height: 18px;
+            left: 7px;
+            bottom: 25px;
+            z-index: 99;
+            background-size: contain;
+            -moz-transform: rotate(-6deg);
+            -webkit-transform: rotate(-6deg);
+            -o-transform: rotate(-6deg);
+            -ms-transform: rotate(-6deg);
+        }
+
+        .testmonial-one:nth-child(even) .learning-up-bg {
+            top: -43px;
+        }
+
+        .testmonial-one:nth-child(even) .learning-down-bg {
+            bottom: -43px;
+        }
+
+        .testmonial-one:nth-child(odd) {
+            margin-top: 80px;
+        }
+
+        .testmonial-one:nth-child(even) .testmonial-page-inner {
+            margin: 60px 0;
+        }
+
+        .testmonial-one:nth-child(odd):last-child {
+            margin-bottom: 0px;
+        }
+
+        .video-gallery-inner .owl-nav .owl-prev {
+            left: 33%;
+        }
+
+        .video-gallery-inner .owl-nav .owl-next {
+            right: 33%;
+        }
+
+        .video-gallery .left_sircle {
+            top: 33%;
+        }
+
+        .testmonial-one:nth-child(odd):first-child {
+            margin-top: 0;
+        }
+
+        .testmonial-page-right h5 {
+            font-size: 22px;
+        }
+
+        .testmonial-page-left {
+            width: 80%;
+        }
+
+        .team_read_more {
+            bottom: 37%;
+        }
+
+        .galler_design {
+            gap: 25px 50px
+        }
+
+        .light_color {
+            margin-top: 61px;
+        }
+
+        .team_pop_cntent p {
+            max-height: 70px;
+        }
+        
+        .our-approch .early-childhood-right::before {
+            width: 251%;
+            height: 393px;
+            left: -31%;
+            top: -105px;
+        }
+
+        .importance-play .age-sec-title .wrapper {
+            width: 90%;
+        }
+
+        .key-learning-sec .learning-up-bg {
+            top: -44px;
+        }
+
+        .key-learning-sec .learning-down-bg {
+            bottom: -44px;
+        }
+
+        .key-learning-sec .owl-nav .owl-next {
+            right: 37%;
+            bottom: -50px;
+        }
+
+        .key-learning-sec .owl-nav .owl-prev {
+            left: 37%;
+            bottom: -50px;
+        }
+
+        .sec-know-more-left::before {
+            left: -48%;
+            top: -30px;
+            width: 200%;
+            height: 535px;
+        }
+
+        .sec-know-more {
+            padding-top: 5px;
+        }
+
+        .our-approch {
+            padding-top: 80px;
+        }
+
+        .our-approch::after {
+            content: "";
+            width: 50px;
+            height: 50px;
+            top: 1%;
+            right: 33px;
+        }
+
+        .importance-play {
+            padding-bottom: 80px;
+        }
+
+        .importance-bg_right {
+            width: 358px;
+            bottom: 30px;
+            right: -50px;
+        }
+
+        .key-learning-sec .owl-nav .owl-prev span {
+            width: 40px;
+            height: 40px;
+        }
+
+        .key-learning-sec .owl-nav .owl-next span {
+            width: 40px;
+            height: 40px;
+        }
+
+        .key-learning-sec .owl-nav .owl-prev {
+            left: 35%;
+        }
+
+        .key-learning-sec .owl-nav .owl-next {
+            right: 35%;
+        }
+
+        .encriment-sec-inner {
+            gap: 60px 5%;
+        }
+
+        .early-childhood-right a {
+            margin-top: 16px;
+        }
+
+        .importance-play .panel-title a {
+            font-size: 14px;
+        }
+
+        .content-importance {
+            margin-top: 20px;
+            margin-bottom: 6px;
+        }
+
+        .sec-know-more .main-heading {
+            text-align: center;
+        }
+
+        .know_more_title p{
+            text-align: center;
+        }
+        .our-approch .early-childhood-left::before {
+            width: 291px;
+            height: 154px;
+        }
+
     }
+
+
 
     @media screen and (max-width:427px) {
        
     }
-
 
 
 
@@ -3423,7 +4886,7 @@
 
         .vision-value::after {
             top: 32%;
-            height: 68%;
+            height: 67%;
         }
 
         .faclity-sec-inner {
@@ -3453,7 +4916,93 @@
             height: 104px;
             top: 29%;
         }
+
+        .about-location {
+            padding-bottom: 20px;
+        }
+
+        .team_popup_main .modal-dialog {
+            top: 90px;
+        }
+        .galler_top_inr_pop .right_title_popup h5 {
+            font-size: 16px;
+        }
         
+        .galler_top_inr_pop .right_title_popup p {
+            margin-top: 5px;
+        }
+
+        .team_pop_cntent {
+            margin-top: 15px;
+        }
+
+        .team_popup_main .owl-nav .owl-prev span::before {
+            font-size: 35px;
+        }
+
+        .team_popup_main .owl-nav .owl-next span::before{
+            font-size: 35px;
+        }
+
+        .team_popup_main .modal-dialog .close {
+            font-size: 33px;
+            left: 6%;
+            top: 2%;
+        }
+
+        .about-location {
+            padding-bottom: 0;
+        }
+
+        .our-story-left::before {
+            left: 3px;
+            bottom: 25px;
+            -moz-transform: rotate(-2deg);
+            -webkit-transform: rotate(-2deg);
+            -o-transform: rotate(-2deg);
+            -ms-transform: rotate(-2deg);
+        }
+
+        .testmonial-one:nth-child(even) .learning-down-bg {
+            bottom: -40px;
+        }
+
+        .testmonial-one:nth-child(even) .learning-up-bg {
+            top: -40px;
+        }
+
+        .team_read_more {
+            bottom: 40%;
+        }
+
+        .learning-zones {
+            margin-top: 35px;
+        }
+
+        .key-learning-sec .learning-up-bg {
+            top: -40px;
+        }
+
+        .key-learning-sec .learning-down-bg {
+            bottom: -40px;
+        }
+
+        .key-learning-sec {
+            margin-bottom: 40px;
+        }
+
+        .encriment-sec::before {
+            top: 49%;
+            left: -150px;
+            width: 225px;
+            height: 180px;
+        }
+
+        .sec-know-more .main-heading {
+            font-size: 22px;
+        }
+
+    
     }
     @media screen and (max-width:389px) {
        
@@ -3465,6 +5014,11 @@
             top: 88px;
         }
     
+        .video-gallery .left_sircle {
+            top: 36%;
+        }
+
+
     }
     
     
@@ -3572,7 +5126,33 @@
             top: 3%;
         }
         
+        .testmonial-one:nth-child(even) .learning-up-bg {
+            top: -36px;
+        }
 
+        .testmonial-one:nth-child(even) .learning-down-bg {
+            bottom: -36px;
+        }
+
+        .video-gallery .left_sircle {
+            top: 39%;
+        }
+
+        .encriment-sec::before {
+            top: 51%;
+        }
+
+        .key-learning-sec .learning-down-bg {
+            bottom: -34px;
+        }
+
+        .key-learning-sec .learning-up-bg {
+            top: -34px;
+        }
+
+        .importance-bg_right {
+            width: 285px;
+        }
     }
 
 
@@ -3614,6 +5194,24 @@
             height: 132px;
             top: 32%;
             right: -25%;
+        }
+
+        .team_popup_main .owl-nav .owl-prev {
+            left: -8.5%;
+            top: 40%;
+        }
+
+        .team_popup_main .owl-nav .owl-next {
+            right: -8.5%;
+            top: 40%;
+        }
+
+        .team_popup_main .modal-dialog {
+            top: 75px;
+        }
+
+        .encriment-sec::before {
+            top: 54%;
         }
 
     }

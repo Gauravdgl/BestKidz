@@ -1,0 +1,1553 @@
+
+.whats_call{position: fixed; z-index: 99; bottom: 10%; right: 0;}
+.whats_call a {
+    display: block;
+    background: #2AB318;
+    padding: 7px 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.whats_call a:first-child{
+    background: #1761AE;
+}
+
+.logo{z-index: 999;}
+.whats_call a img{width: 50px;}
+
+.cross-nav{display: none;}
+.menu-close{display: none;}
+
+.mobile-trigger{display: none;}
+
+.dropdown-menu {
+    position: absolute;
+    top: 75%;
+    left: 0px;
+    background: #ffffff54;
+    border-radius: 20px !important;
+    padding: 0;
+    border: none;
+}
+
+.dropdown-menu::before {
+    content: "";
+    background: url(../images/menu_drop_arrow.png) no-repeat 0 0;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -12px;
+    right: 30px;
+}
+
+.headermain .navigation .dropdown-menu li a {
+    margin: 0;
+    padding: 10px 5px;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.headermain .navigation li a:hover{background: none;}
+.headermain .navigation li a:focus{background: none;}
+.headermain .navigation li.open a{background: none; color: #fff;}
+
+.headermain .navigation .dropdown-menu li a:hover{
+    background: #1761ae !important;
+}
+
+.headermain .navigation .dropdown-menu li:first-child a {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.headermain .navigation .dropdown-menu li:last-child a{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.headermain.fixed .dropdown-menu {
+    top: 100%;
+    background: #8cc243;
+    box-shadow: none;
+}
+
+
+.headermain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 0px 2% 0px 0px;
+    transition: all 0.7s;
+}
+
+.headermain.fixed{background: #8cc243;}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fixed{position: fixed;}
+
+.logo {
+    width: 270px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.logo img{width: 100%;}
+
+
+.logo-right {
+    float: right;
+}
+
+.logo-right {
+    float: right;
+    width: 100%;
+}
+
+
+
+
+.menu_inner_div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+.navigation {
+
+    background: none;
+
+    border: none;
+
+    border-radius: 0;
+
+    padding: 0;
+
+    margin: 0;
+
+    padding-right: 30px;
+
+}
+
+
+
+
+
+.navigation > ul{
+
+    margin: 0;
+
+    padding:0;
+
+    display: flex;
+
+    align-items: baseline;
+
+}
+
+.headermain .navigation > li{
+
+    list-style: none;
+
+    padding:0 0;
+
+    position: relative;
+
+}
+.headermain .navigation li a {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: inherit;
+    padding: 6px 0px;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    margin: 44px 13px;
+    font-family: 'Open Sans Regular', sans-serif;
+}
+
+
+
+.headermain .navigation .navbar-nav li.active a{background: none; color: #fff;}
+
+.headermain .navigation .navbar-nav li.active a::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #1761AE;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.headermain .navigation .navbar-nav li a:hover{background: none; color: #fff;}
+
+.headermain .navigation .navbar-nav li a:focus {
+    color: #ffffff;
+    background: none;
+    outline: 0;
+    border: none;
+}
+
+
+
+.headermain .navigation ul li:last-child a::before{display: none;}
+
+
+
+.headermain .navigation .navbar-collapse {
+
+    padding-right: 0;
+
+    padding-left: 0;
+
+}
+
+
+
+
+
+.headermain .navigation li a:hover{color: #33bdc8;}
+
+
+
+.arrow_menu{display: block;}
+
+
+
+.arrow_menu {
+
+    position: absolute;
+
+    right: 14px;
+
+    top: 20px;
+
+    width: 15px;
+
+    height: 15px;
+
+}
+
+
+
+.arrow_menu img{width: 100%;}
+
+
+
+.bookademo {
+    display: flex;
+    gap: 0 15px;
+}
+
+.bookademo a {
+    background: #1761AE;
+    color: #fff;
+    padding: 20px 23px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: 'Nunito Bold', sans-serif;
+}
+
+.bookademo a:first-child {
+    padding: 15px 15px;
+}
+
+.bookademo a img {
+    width: 36px;
+}
+
+
+
+
+
+
+.dropdown-submenu {
+
+    position: relative;
+
+}
+
+
+
+.dropdown-submenu>.dropdown-menu {
+
+    top: 0;
+
+    left: 100%;
+
+    margin-top: -6px;
+
+    margin-left: -1px;
+
+    -webkit-border-radius: 0 6px 6px 6px;
+
+    -moz-border-radius: 0 6px 6px;
+
+    border-radius: 0 6px 6px 6px;
+
+}
+
+
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start footer css */
+
+
+
+.footer{background: #8CC243; padding: 50px 8%; display: flex;}
+.left-logo-ft{width: 40%;}
+.left-logo-ft img{width: 100%;}
+.footer-logo {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.logo_small {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bridgway_logo{width: 120px;}
+.kindieday-logo{width: 150px;}
+
+
+
+.right-ft-cnt {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+
+.ft-title{display: block;}
+
+.ft-title h5 {
+    margin-bottom: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.quicklink ul{list-style: none;}
+
+.quicklink ul li a {
+    font-size: 16px;
+    color: #fff;
+    padding: 3px 0;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.quicklink ul li a:hover{color: #1761ae;}
+
+.quicklink ul li:first-child a{margin-bottom: 25px; padding-bottom: 0;}
+
+
+.quicklink ul li:nth-child(4) a{
+    margin-bottom: 25px;
+    padding-bottom: 0;
+  }
+
+  .quicklink ul li:nth-child(6) a{
+    margin-bottom: 25px;
+    padding-bottom: 0;
+  }
+
+  .quicklink ul li:last-child a{margin-top: 25px; }
+
+
+
+.workhourse{display: block;}
+.workhourse ul{list-style: none;}
+.workhourse ul li{display: block;}
+.workhourse ul li a {
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    padding: 3px 0;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+    padding-left: 35px;
+}
+
+.workhourse ul li a span {
+    width: 25px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+
+.workhourse ul li a span img{width: 100%;}
+
+.contact_ft {
+    width: 32%;
+}
+
+
+.workhourse {
+    display: block;
+    width: 25%;
+}
+
+.quicklink {
+    width: 25%;
+}
+
+
+.contact_ft{display: block;}
+.contact_ft ul{list-style: none;}
+.contact_ft ul li{display: block;}
+.contact_ft ul li a {
+    display: block;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 7px 0;
+    text-decoration: none;
+    padding-left: 30px;
+    position: relative;
+}
+
+.contact_ft ul li a span {
+    position: absolute;
+    left: 0;
+    top: 9px;
+}
+
+.footer-last{background: #2CA19E; padding: 10px 0; color: #fff;}
+.footer-last-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-last-left{color: #FFFFFF; font-size: 16px;}
+
+
+
+.footer-last-right a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+    align-items: center;
+}
+
+.footer-last-right a span {
+    background: #52c7c4;
+    padding: 9px;
+    border-radius: 50%;
+}
+
+.footer-last-right a span img{width: 20px;}
+
+
+
+.quicklink ul li a {
+    padding: 1px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end footer css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start media query */
+
+
+
+
+
+@media screen and (max-width:1919px){
+
+    .headermain .navigation li a {
+        font-size: 17px;
+        margin: 44px 11px;
+    }
+
+   
+    .left-logo-ft {
+        width: 35%;
+    }
+
+    .footer-logo {
+        width: 60%;
+    }
+
+    .logo_small {
+        width: 60%;
+    }
+
+
+    .dropdown-menu {
+        top: 75%;
+        left: -9px;
+    }
+
+    .dropdown-menu::before {
+        right: 46px;
+    }
+
+}
+
+
+@media screen and (max-width:1799px){
+
+    .logo {
+        width: 250px;
+    }
+
+    .bookademo a {
+        padding: 13px 20px;
+        font-size: 16px;
+    }
+
+    .bookademo a:first-child {
+        padding: 10px 11px;
+    }
+
+    .bookademo a img {
+        width: 30px;
+    }
+
+    .bookademo {
+        gap: 0 12px;
+    }
+
+    .headermain .navigation li a {
+        font-size: 16px;
+        margin: 44px 11px;
+    }
+
+    .headermain .navigation li a {
+        font-size: 16px;
+        margin: 38px 11px;
+    }
+
+   
+
+}
+
+
+
+@media screen and (max-width:1679px){
+
+    .logo {
+        width: 230px;
+    }
+
+    .headermain .navigation li a {
+        font-size: 15px;
+    }
+
+    .headermain .navigation li a {
+        margin: 35px 10px;
+    }
+
+    .bookademo a {
+        padding: 12px 20px;
+        font-size: 15px;
+    }
+
+    .bookademo a img {
+        width: 25px;
+    }
+
+    .navigation {
+        padding-right: 20px;
+    }
+
+
+    .quicklink ul li a {
+        font-size: 16px;
+    }
+
+    .workhourse ul li a {
+        font-size: 16px;
+    }
+
+    .contact_ft ul li a {
+        font-size: 16px;
+    }
+
+    .ft-title h5 {
+        font-size: 18px;
+    }
+ 
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1535px){
+
+
+    .bookademo a {
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .bookademo a img {
+        width: 22px;
+    }
+
+    .bookademo a {
+        padding: 12px 18px;
+        font-size: 13px;
+    }
+
+    .headermain .navigation li a {
+        margin: 26px 8px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:1439px){
+
+   
+    .bookademo a img {
+        width: 21px;
+    }
+
+    .bookademo a {
+        padding: 13px 16px;
+        font-size: 11px;
+    }
+
+    .headermain .navigation li a {
+        font-size: 14px;
+    }
+
+    .footer-logo {
+        width: 70%;
+    }
+
+    .logo_small {
+        width: 70%;
+    }
+
+    .bridgway_logo {
+        width: 100px;
+    }
+
+    .kindieday-logo {
+        width: 130px;
+    }
+
+    .headermain .navigation .navbar-nav li.active a::before {
+        bottom: -7px;
+    }
+
+    .whats_call a img {
+        width: 30px;
+    }
+
+    .ft-title h5 {
+        font-size: 16px;
+    }
+
+    .quicklink ul li:first-child a {
+        margin-bottom: 15px;
+    }
+
+    .quicklink ul li:nth-child(4) a {
+        margin-bottom: 15px;
+    }
+
+    .quicklink ul li:nth-child(6) a {
+        margin-bottom: 15px;
+    }
+
+    .quicklink ul li:last-child a {
+        margin-top: 15px;
+    }
+
+    .footer {
+        background: #8CC243;
+        padding: 40px 8%;
+    }
+
+    .footer-last-right a span {
+        padding: 5px 7px;
+    }
+
+    .footer-last-right a span img {
+        width: 17px;
+        height: 13px;
+    }
+}
+
+
+
+@media screen and (max-width:1365px){
+
+    .logo {
+        width: 180px;
+    }
+
+    .headermain .navigation li a {
+        font-size: 13px;
+    }
+
+    .bookademo a {
+        padding: 8px 15px;
+        font-size: 11px;
+    }
+
+    .bookademo a img {
+        width: 16px;
+    }
+
+    .bookademo a:first-child {
+        padding: 7px 8px;
+    }
+
+    .headermain .navigation li a {
+        margin: 28px 8px;
+        padding: 0;
+    }
+
+    .footer {
+        padding: 50px 9%;
+    }
+
+    .workhourse {
+        display: block;
+        width: 26%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1279px){
+
+
+
+    .headermain .navigation li a {
+        font-size: 11px;
+    }
+
+    .logo {
+        width: 160px;
+    }
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:1199px){
+
+
+
+    .logo {
+
+        width: 110px;
+
+    }
+
+
+    .navigation {
+
+        padding-right: 15px;
+
+    }
+
+
+
+    .spacer_header {
+
+        height: 83px;
+
+    }
+
+
+    
+
+    .headermain .navigation li a {
+        font-size: 10px;
+    }
+
+    .navigation {
+        padding-right: 5px;
+    }
+
+    .bookademo {
+        gap: 0 5px;
+    }
+
+    .bookademo a {
+        padding: 8px 10px;
+        font-size: 9px;
+    }
+
+    .bookademo a img {
+        width: 15px;
+    }
+    
+    .headermain .navigation li a {
+        margin: 16px 8px;
+    }
+
+    .headermain .navigation .dropdown-menu li a {
+        margin: 0;
+        padding: 10px 5px;
+        font-size: 10px;
+    }
+
+    .dropdown-menu::before {
+        top: -4px;
+        right: 30px;
+        background-size: contain;
+        width: 10px;
+        height: 9px;
+    }
+
+
+    .footer {
+        padding: 50px 7%;
+    }
+
+    .left-logo-ft {
+        width: 30%;
+    }
+
+}
+
+
+@media screen and (max-width:1023px){
+    
+}
+
+
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) { 
+
+
+
+    .logo {
+
+        width: 80px;
+
+    }
+
+
+
+    .spacer_header {
+
+        height: 67px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:991px){
+
+
+    
+.navbar-header {
+    float: none;
+}
+.navbar-left,.navbar-right {
+    float: none !important;
+}
+.navbar-toggle {
+    display: block;
+}
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+.navbar-collapse.collapse {
+    display: none!important;
+}
+.navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+}
+.navbar-nav>li {
+    float: none;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.collapse.in{
+    display:block !important;
+}
+
+
+
+
+.headermain .navigation {
+
+    padding-right: 0px;
+
+    position: absolute;
+
+    right: 0;
+
+    top: 16px;
+
+    width: 100%;
+
+}
+
+
+
+.logo-right {
+
+    float: right;
+
+    margin-right: 50px;
+
+}
+
+
+.headermain .navigation .navbar-collapse {
+    padding-right: 20px;
+    padding-left: 24px;
+    background: #ffffff;
+    width: 93%;
+    right: 0;
+    float: right;
+    margin-top: -62px;
+    z-index: 99;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.headermain .navigation li a {
+    padding: 16px 10px;
+    font-size: 16px;
+    display: inline-block;
+    color: #1761AE;
+    width: 100%;
+    margin: 0;
+}
+
+
+
+.headermain .navigation li.active a{color: #1761AE;}
+
+
+.headermain .navbar-nav{padding: 0;}
+
+
+.headermain .navbar-default .navbar-toggle {
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    margin-right: 20px;
+    color: #1761AE;
+    margin-bottom: 0;
+    z-index: 999;
+}
+
+.headermain .active_part .navbar-toggle {
+    margin-top: 13px;
+    margin-right: 50px;
+}
+
+
+
+.headermain .navigation .navbar-nav li.active a::before{display: none;}
+
+.headermain .navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+
+
+.headermain .navbar-nav {
+    margin-top: 100px;
+    padding: 0 7%;
+}
+
+.headermain .navbar-default .navbar-toggle .icon-bar {
+
+    background-color: #000;
+
+}
+
+
+
+.headermain .navbar-toggle .icon-bar {
+    display: block;
+    width: 27px;
+    height: 4px;
+    border-radius: 15px;
+}
+
+
+.headermain {
+    padding: 16px 3%;
+}
+
+
+.logo {
+    width: 150px;
+}
+
+.headermain .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+.headermain .navigation .navbar-nav li.active a{background: none; color: #1761AE;}
+
+.headermain .active_part.active_part .navbar-toggle .icon-bar {
+    background-color: #1761AE;
+}
+
+
+.cross-nav{display:none;}
+
+
+.headermain .active_part .cross-nav {
+    display: block;
+    z-index: 99999;
+    font-size: 27px;
+    margin-top: 10px;
+    position: absolute;
+    left: 17%;
+    top: 0;
+}
+
+.bookademo {
+    gap: 0 10px;
+    z-index: 99;
+}
+
+.bookademo a {
+    padding: 8px 25px;
+    font-size: 14px;
+}
+
+.bookademo a img {
+    width: 22px;
+}
+
+
+.footer {
+    flex-wrap: wrap;
+}
+
+.left-logo-ft {
+    width: 100%;
+}
+
+.right-ft-cnt {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.footer {
+    padding: 50px 5%;
+}
+
+
+.quicklink {
+    width: 45%;
+}
+
+.workhourse {
+    display: block;
+    width: 50%;
+}
+
+.contact_ft {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer-logo {
+    width: 45%;
+    margin: 0;
+}
+
+
+
+.left-logo-ft {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.logo_small {
+    width: 44%;
+    margin: 0;
+    flex-wrap: wrap;
+    gap: 20px 0;
+    text-align: right;
+}
+
+.bridgway_logo {
+    width: 100%;
+}
+
+.kindieday-logo {
+    width: 100%;
+}
+
+.bridgway_logo img{width: 50%;}
+.kindieday-logo img{width: 50%;}
+
+.headermain.fixed .dropdown-menu {
+    top: 100%;
+    background: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #1761AE;
+    font-size: 14px;
+    text-align: left;
+}
+
+.headermain .navigation li.open a {
+    background: none;
+    color: #1761AE;
+}
+
+.headermain .navigation .navbar-nav li a:focus {
+    color: #1761AE;
+}
+
+.headermain .navigation .navbar-nav li a:hover {
+    background: none;
+    color: #1761AE;
+}
+
+.headermain .navigation li a {
+    padding: 12px 10px;
+}
+
+.headermain .navbar-nav .open .dropdown-menu li a {
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+
+.footer {
+    padding-top: 100px;
+}
+
+.right-ft-cnt {
+    margin-top: 60px;
+}
+
+.footer ul{margin-bottom: 0;}
+
+
+.headermain .navigation .navbar-collapse {
+    z-index: 999;
+}
+
+.headermain .navbar-default .navbar-toggle {
+    z-index: 9999;
+}
+
+
+.caret {
+    background: url(../images/menu_arrow_mobile.png) no-repeat;
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.headermain .navigation .navbar-nav li.open .caret {
+    -webkit-transform: rotate(178deg);
+    -moz-transform: rotate(178deg);
+    -ms-transform: rotate(178deg);
+    -o-transform: rotate(178deg);
+    transform: rotate(178deg);
+    margin-top: -10px;
+}
+
+
+}
+
+
+@media screen and (max-width:767px){
+
+
+
+    .form_top_title h3 {
+        font-size: 16px;
+        letter-spacing: 0;
+        text-align: center;
+        margin: 0;
+        padding: 15px 15px;
+
+    }
+
+    .bridgway_logo img {
+        width: 70%;
+    }
+
+    .kindieday-logo img {
+        width: 70%;
+    }
+
+
+}
+
+
+@media screen and (max-width:639px){
+
+    .bookademo a {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+
+    .bookademo a img {
+        width: 18px;
+    }
+
+    .footer-last-right a {
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        gap: 5px 0;
+        flex-direction: column-reverse;
+    }
+
+
+    .footer-last-right a span {
+        background: #52c7c4;
+        padding: 9px;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-last-right a span img {
+        width: 13px;
+    }
+
+    .footer-last-left {
+        width: 60%;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:479px){
+
+
+    .logo {
+        width: 130px;
+    }
+
+
+    .bookademo {
+        margin-top: 10px;
+    }
+
+    .headermain .navbar-default .navbar-toggle {
+        margin-top: 17px;
+        margin-right: 18px;
+    }
+
+    .logo-right {
+        margin-right: 45px;
+    }
+
+    .bookademo a {
+        padding: 7px 10px;
+        font-size: 11px;
+    }
+
+    .bookademo a img {
+        width: 16px;
+    }
+
+    .bookademo a:first-child {
+        padding: 7px 8px;
+    }
+
+    .bridgway_logo img {
+        width: 90%;
+    }
+
+    .kindieday-logo img {
+        width: 90%;
+    }
+
+    .quicklink ul li:nth-child(4) a {
+        margin-bottom: 20px;
+    }
+
+    .quicklink ul li:nth-child(6) a {
+        margin-bottom: 20px;
+    }
+
+    .quicklink ul li:last-child a {
+        margin-top: 20px;
+    }
+
+    .footer-logo {
+        width: 50%;
+    }
+
+    .ft-title h5 {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        width: 33%;
+    }
+
+    .footer {
+        padding-top: 60px;
+    }
+
+}
+
+
+@media screen and (max-width:413px){
+
+
+
+    .bookademo {
+        margin-top: 0px;
+    }
+
+    .headermain .navbar-default .navbar-toggle {
+        margin-top: 5px;
+        margin-right: 15px;
+    }
+
+    .bookademo a {
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+
+    .bookademo a:first-child {
+        padding: 4px 6px;
+    }
+
+    .bookademo a img {
+        width: 13px;
+    }
+
+    .headermain .navbar-default .navbar-toggle {
+        margin-top: 2px;
+        margin-right: 15px;
+    }
+
+    .headermain .navbar-default .active_part .navbar-toggle {
+        margin-top: 17px;
+        margin-right: 20px;
+    }
+
+
+   
+
+}
+
+
+
+
+
+
+@media screen and (max-width:374px){
+
+    .footer_social {
+        width: 70%;
+    }
+
+    .headermain {
+        padding: 13px 3%;
+    }
+
+    .headermain .navbar-default .navbar-toggle {
+        margin-top: 0px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* end media query */
+
+
+
+
+
+
+
+
