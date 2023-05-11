@@ -8,13 +8,18 @@ $(function () {
 
 
 $(window).scroll(function(){
-    var scroll = $(window).scrollTop();  
-    if (scroll >= 150) {
-        $("header").addClass("fixed");
-    }else{
-        $("header").removeClass("fixed");
+    var path = window.location.pathname;
+    var page = path.split("/").pop();
+    if(page != 'blog-detail.html'){
+        var scroll = $(window).scrollTop();  
+        if (scroll >= 150) {
+            $("header").addClass("fixed");
+        }else{
+            $("header").removeClass("fixed");
+        }
     }
 })
+
 
 
 $('document').ready(function(){
@@ -104,7 +109,6 @@ $('.key-learning-slider .owl-carousel').owlCarousel({
     autoplay:false,
     nav:true,
     margin:30,
-    center: true,
     dots:false,
     responsiveClass: true,
     responsive: {
